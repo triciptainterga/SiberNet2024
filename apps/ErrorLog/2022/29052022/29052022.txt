@@ -1,0 +1,221 @@
+Time: 29/05/2022 05:32:45:891 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:33:42:491 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:37:42:998 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:38:27:328 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:44:434 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:42:02:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:42:19:840 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:23:47:977 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:40:32:297 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:41:08:450 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','4730'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:42:00:498 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','4730'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:43:12:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:43:26:243 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:44:43:604 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:44:43:605 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-5-29' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:44:43:607 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+Message: The process cannot access the file 'D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\apps\ErrorLog\2022\29052022\29052022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecordsBigData(String tableType, String tableName, String paramQuery) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 268
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/05/2022 06:44:46:781 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status='0' or call_status<>'Closed') And call_created_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:44:50:672 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-5-29' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:09:714 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:11:476 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status='0' or call_status<>'Closed') And call_created_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:12:598 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-5-29' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:18:257 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] Where call_agent='Agent1' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:20:897 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:35:096 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ikba%' or call_phone_number like'%ikba%' or call_reason_detail like'%ikba%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:35:237 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ikbal%' or call_phone_number like'%ikbal%' or call_reason_detail like'%ikbal%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:37:396 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ikba%' or call_phone_number like'%ikba%' or call_reason_detail like'%ikba%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:38:080 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%%' or call_phone_number like'%%' or call_reason_detail like'%%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:39:234 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ahma%' or call_phone_number like'%ahma%' or call_reason_detail like'%ahma%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:39:383 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ahmad%' or call_phone_number like'%ahmad%' or call_reason_detail like'%ahmad%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:40:330 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%ahma%' or call_phone_number like'%ahma%' or call_reason_detail like'%ahma%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:42:123 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%%' or call_phone_number like'%%' or call_reason_detail like'%%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:43:415 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%onli%' or call_phone_number like'%onli%' or call_reason_detail like'%onli%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:44:539 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%%' or call_phone_number like'%%' or call_reason_detail like'%%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:47:848 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] Where call_agent='Agent1' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:49:876 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:55:099 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%yuli%' or call_phone_number like'%yuli%' or call_reason_detail like'%yuli%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:55:296 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%yulia%' or call_phone_number like'%yulia%' or call_reason_detail like'%yulia%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:55:448 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%yulian%' or call_phone_number like'%yulian%' or call_reason_detail like'%yulian%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:45:55:627 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundDetail] Where call_agent='Agent1' And call_date between '2022-5-29 00:01' And '2022-5-29 23:59' And (Call_name like'%yuliana%' or call_phone_number like'%yuliana%' or call_reason_detail like'%yuliana%') 
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:46:24:231 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:46:50:392 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 06:48:05:336 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+

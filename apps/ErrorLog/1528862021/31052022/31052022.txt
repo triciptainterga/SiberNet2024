@@ -1,0 +1,54 @@
+Time: 31/05/2022 04:43:51:889 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1528862021','Brilife2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:51:978 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:52:397 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1528862021','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:52:418 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1528862021' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:52:420 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 155
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 31/05/2022 04:43:54:692 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1528862021', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:54:789 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1528862021','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:55:313 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1528862021', 'open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 31/05/2022 04:43:55:806 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1528862021','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

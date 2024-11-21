@@ -1,0 +1,159 @@
+Time: 18/08/2022 07:56:27:528 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTaskboard.aspx' OR UrlUser2='Coll_TrxTaskboard.aspx' OR UrlUser3='Coll_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 08:20:01:167 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 09:40:16:024 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTaskboard.aspx' OR UrlUser2='Coll_TrxTaskboard.aspx' OR UrlUser3='Coll_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 10:39:30:024 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/08/2022 10:39:30:067 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 11:10:26:239 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/08/2022 11:10:26:266 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 11:43:07:507 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 12:40:22:025 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 01:35:59:225 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 01:36:02:182 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 03:22:39:845 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 03:53:19:323 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:28:794 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:28:799 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:28:812 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:31:305 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK97'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:32:515 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','admin','UIDESK97'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:52:34:212 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK97'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:53:18:066 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Coll_TrxTransaksi.aspx' OR UrlUser2='Coll_TrxTransaksi.aspx' OR UrlUser3='Coll_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:50:695 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:50:889 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '68','085782432266','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:50:915 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:50:961 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:51:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:51:084 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/08/2022 04:58:51:346 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '68','admin','UIDESK96'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,432 @@
+Time: 11/10/2022 04:06:33:091 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:33:105 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:33:116 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:33:118 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:33:123 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BPO\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BPO\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2022 04:06:33:413 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:34:045 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:34:406 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:34:585 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:34:902 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:37:641 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:38:273 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'Agent1','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:38:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:38:769 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 04:06:38:975 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:39:161 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:39:162 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:39:176 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:39:177 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:39:179 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2022 10:05:49:236 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:49:842 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:50:388 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:53:743 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:05:54:249 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:342 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:851 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Agent1','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:855 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:858 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Agent1','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:00:900 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:01:119 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:01:122 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:01:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:01:292 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:01:794 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Agent1','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:02:308 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:02:858 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:05:941 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','Agent1','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:07:725 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','Agent1','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:09:112 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','Agent1','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:10:348 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:10:378 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:12:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00001','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:12:480 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:14:288 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00002','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:14:296 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:06:21:735 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:604 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:605 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:607 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:607 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:608 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:629 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:00:918 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:01:017 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:01:422 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:01:530 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:04:967 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:231 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Agent1','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:233 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:237 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:239 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:258 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Agent1','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:261 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:435 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:740 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:755 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:05:939 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:06:249 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Agent1','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:06:765 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:09:032 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00002','UideskIndonesia','Agent1','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:10:243 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','Agent1','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:11:263 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','Agent1','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:12:414 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','Agent1','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:13:782 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:13:790 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:16:181 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00001','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:16:188 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:17:599 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/10/2022 10:07:17:603 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+

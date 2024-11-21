@@ -1,0 +1,59 @@
+Time: 29/05/2022 05:39:44:452 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '1048922013','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:44:473 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:44:584 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','1048922013','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:44:605 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='1048922013' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:44:607 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 155
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/05/2022 05:39:45:736 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '1048922013', '3', 'layer3'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:45:800 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1048922013','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:46:257 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '1048922013', 'open', '3','layer3'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:46:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','1048922013','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2022 05:39:52:056 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 3' And (UrlUser1='1_journey.aspx' OR UrlUser2='1_journey.aspx' OR UrlUser3='1_journey.aspx')
+---------------------------Success-------------------------------------------------------
+

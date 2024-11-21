@@ -1,0 +1,32 @@
+Time: 25/10/2023 03:11:10:427 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 25/10/2023 03:11:10:478 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='E4YHQWNGZPWZSZF5WG2HABP51XQRMG3PTG8ANTIWJO80FYA3SM' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/10/2023 03:14:12:468 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/10/2023 03:14:12:474 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 25/10/2023 03:14:12:488 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_login.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_login.aspx.vb:line 326
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+

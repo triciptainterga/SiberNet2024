@@ -1,0 +1,464 @@
+Time: 29/08/2023 10:38:24:026 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 100
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:38:32:401 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 100
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:38:54:545 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 100
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:39:34:083 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 100
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:40:30:662 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+Message: TokenMeta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 100
+Source: System.Data
+TargetSite: Int32 GetOrdinal(System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:41:40:913 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:41:40:929 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:41:40:959 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:41:40:961 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:41:40:966 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2023 10:42:11:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:11:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:12:345 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:12:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:41:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:42:021 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:42:423 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:42:42:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:44:03:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '211216141202','admin','0','Select'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:44:03:817 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '211216141202','admin','0','Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:44:03:833 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '211216141202','admin','0','Channel'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:44:04:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:45:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:45:956 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK75'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:45:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:46:520 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:46:862 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:47:101 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:48:47:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:50:50:495 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:10:720 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_TrxEmailDetail WHERE USERCREATE='admin' AND DIRECTION='OUT' AND FLAG='N' AND FLAG_EVENT='0'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:10:721 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxDeleteEmailAttachment '','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:11:554 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:11:585 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:11:589 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:12:003 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:12:096 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:12:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:51:12:600 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK75'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 10:57:06:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:43:549 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_TrxEmailDetail WHERE USERCREATE='admin' AND DIRECTION='OUT' AND FLAG='N' AND FLAG_EVENT='0'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:43:550 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxDeleteEmailAttachment '','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:44:479 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDateToday'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:44:523 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','','','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:44:527 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:44:530 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:44:924 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:45:038 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK75'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:11:45:429 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:34:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-03-01','2022-03-04','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:34:506 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-03-01','2022-03-04','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:34:911 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-03-01','2022-03-04','admin','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:34:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin','2022-03-01','2022-03-04'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:35:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-03-01','2022-03-04','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:20:35:989 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-03-01','2022-03-04','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:27:081 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-03-13','2022-03-15','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:27:092 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','OutboxTable','2022-03-13','2022-03-15','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:27:101 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin','2022-03-13','2022-03-15'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:27:598 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '2022-03-13','2022-03-15','admin','CheckDay'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:27:635 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','2022-03-13','2022-03-15','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:21:28:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','DraftTable','2022-03-13','2022-03-15','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:32:344 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK47'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:32:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK51'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:32:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:32:787 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:32:839 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:25:33:287 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:26:56:437 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '319','admin','UIDESK27'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:27:54:092 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:27:54:480 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:27:54:987 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:27:56:735 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:28:39:253 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK48'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:29:44:333 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_AccountEmailCorporate '0','admin','DataTable','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:29:44:634 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:29:44:829 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_AccountEmailCorporate '0','admin','Combo','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:29:45:140 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:03:049 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:03:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:03:121 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:03:535 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:04:036 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:05:907 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2023 11:31:11:988 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2026','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+

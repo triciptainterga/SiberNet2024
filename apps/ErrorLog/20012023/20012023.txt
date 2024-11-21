@@ -1,0 +1,60 @@
+Time: 20/01/2023 08:32:07:058 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:21:44:910 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmA1.aspx' OR UrlUser2='TrmA1.aspx' OR UrlUser3='TrmA1.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:29:12:475 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:56:58:279 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 11:39:42:547 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 11:39:49:981 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:41:11:929 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:41:29:146 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmA1.aspx' OR UrlUser2='TrmA1.aspx' OR UrlUser3='TrmA1.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 03:43:36:298 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 05:47:55:970 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 06:02:04:826 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxUpload.aspx' OR UrlUser2='Out_TrxUpload.aspx' OR UrlUser3='Out_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 06:52:10:100 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxUpload.aspx' OR UrlUser2='Out_TrxUpload.aspx' OR UrlUser3='Out_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+

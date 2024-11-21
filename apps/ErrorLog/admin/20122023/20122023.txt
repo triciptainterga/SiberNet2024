@@ -1,0 +1,1076 @@
+Time: 20/12/2023 08:07:42:254 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:42:272 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:42:351 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:42:353 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:42:355 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 08:07:55:951 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:56:397 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:56:902 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:07:57:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:04:292 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:04:794 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:14:817 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:14:833 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:14:834 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:15:827 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:15:860 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:16:388 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:16:939 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:20:134 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:08:20:659 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:12:360 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:12:873 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:55:419 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:55:434 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:55:435 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:57:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:58:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:58:710 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:10:59:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:11:01:327 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:11:01:839 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:08:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:09:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:21:652 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:21:725 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:22:198 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:22:199 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:22:200 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 08:15:24:652 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:24:727 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:25:192 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:25:791 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:29:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:15:30:407 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:08:963 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:09:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:24:670 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:24:715 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:24:735 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:24:735 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:24:736 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 08:17:25:915 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:25:951 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:26:467 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:26:978 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:30:170 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:17:30:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:21:51:903 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:21:51:921 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:21:51:976 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:21:51:977 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:21:51:979 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 08:22:04:359 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:22:04:865 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:22:04:924 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:22:05:395 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:22:09:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:22:09:720 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:05:257 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:05:325 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:05:435 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:05:436 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:05:437 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 08:39:08:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:08:595 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:08:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:09:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:14:791 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:15:304 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:39:34:912 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='5_Report_Activity.aspx' OR UrlUser2='5_Report_Activity.aspx' OR UrlUser3='5_Report_Activity.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:00:878 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:00:929 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:00:930 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:04:225 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:04:434 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:04:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:05:288 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:21:135 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:21:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 08:40:31:881 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Administrator' And (UrlUser1='5_Report_Activity.aspx' OR UrlUser2='5_Report_Activity.aspx' OR UrlUser3='5_Report_Activity.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:54:57:457 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:54:57:682 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:54:58:342 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:54:58:342 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:54:58:344 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 12:55:17:637 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:18:134 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:18:705 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:19:312 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:23:408 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:24:023 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:24:841 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:24:842 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:24:843 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 12:55:44:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:44:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:45:209 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:55:45:871 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:56:39:952 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:56:40:211 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:56:41:848 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:56:41:850 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:56:41:855 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 12:57:00:605 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:00:995 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:02:079 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:02:740 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:52:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:53:175 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:54:348 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:57:54:773 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:58:02:552 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','admin','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:58:17:539 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSubMenuApplication '0','2025','Detail Dashboard','5_Report_Activity.aspx?','N','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:58:19:549 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0002','admin','UIDESK36'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:00:633 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:01:645 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:02:239 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:02:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:03:368 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:05:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:09:813 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2025','admin','UIDESK03'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:19:648 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '12002','admin','UIDESK04'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:25:100 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxSettingManagement '0','2025','12002','','DD','admin','4','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:25:100 PM
+---------------------------Success-------------------------------------------------------
+Message: 385180383898383899383900383901391291385181385129385119383991385165383904383905385182383926383940391292385131383946383953391281391282385168383928385171383930383931385133383933385172385134385183391294383949383955383956385147385184385185391295391284390271391285390272385189384041384013384014384015385190385148385196384002384044383927383906383907385202383913385204383941385206384032384033384034384035384036384037384042390280385230384051387240387241387262385052385054388267385063385064385066385086385087385090390273391290385205391293385088387266385113385114385115385118385130385132385173390281390282385222391283385163385164390283385120390284385200385203385156385117385192385157385175385179385137385167385191385174
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:26:192 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','4','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:51:905 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:52:725 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:53:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:53:537 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 12:59:53:950 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:00:20:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:00:21:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:01:00:301 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:01:01:179 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:01:02:352 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:02:05:326 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:02:06:349 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:02:06:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:20:364 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:20:870 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:21:392 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.TrmMonitoring1.DataTableMonitoring(String TrxFlag) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\asmx\TrmMonitoring.asmx.vb:line 194
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 01:15:21:398 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:22:236 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:54:655 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:55:069 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:55:678 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:15:56:197 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:27:41:129 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:27:41:630 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:27:42:139 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:27:42:653 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:29:20:653 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:29:21:034 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:29:21:661 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:29:22:479 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:38:47:255 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:38:47:739 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:38:49:058 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:38:49:060 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:38:49:074 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/12/2023 01:39:00:732 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:39:01:295 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:39:01:791 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:39:02:577 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:41:05:456 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:41:06:008 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:42:21:300 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:42:21:621 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:42:22:278 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:48:32:081 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:48:32:592 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:48:33:081 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:149 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231220084138629','admin','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:440 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:551 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:617 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:24:850 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231220084138629','admin','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:015 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:092 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:159 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231220084138629','admin','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:332 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231220084138629','admin','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:545 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231213091918','admin','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:25:846 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '5','admin','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:26:390 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231220084138629','admin','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:38:469 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:38:985 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/12/2023 01:49:39:425 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+

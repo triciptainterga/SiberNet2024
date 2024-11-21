@@ -1,0 +1,102 @@
+Time: 16/12/2022 10:29:45:664 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:46:52:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:46:57:756 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-12-16 00:01' And '2022-12-16 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:46:57:757 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-12-16' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:46:57:762 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-12-16 00:01' And '2022-12-16 23:59' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2022\16122022\16122022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2022 10:47:40:347 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-12-16 00:01' And '2022-12-16 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:40:348 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-12-16' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:40:349 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-12-16 00:01' And '2022-12-16 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:504 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='1005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:512 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:513 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:517 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='1758' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:519 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='1758' order by call_date Asc 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2022\16122022\16122022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2022 10:47:42:578 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='a4ec1710-0461-4336-af82-85203be7d354' and call_polis_number = '81888579' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 11:24:59:635 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2022 03:16:12:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+

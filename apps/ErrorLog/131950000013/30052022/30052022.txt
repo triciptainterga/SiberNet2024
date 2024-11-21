@@ -1,0 +1,81 @@
+Time: 30/05/2022 11:24:02:607 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000013','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:02:638 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:03:137 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000013','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:03:140 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000013' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:03:167 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 155
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/05/2022 11:24:04:288 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000013' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:07:720 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000013','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:08:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000013', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:09:312 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000013', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:24:09:712 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000013','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:25:08:408 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000013' And Url='TrmKnowledgebase.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:25:12:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000013','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:25:13:338 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000013','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/05/2022 11:25:22:863 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000013' And Url='TrmKnowledgebase.aspx'
+---------------------------Success-------------------------------------------------------
+

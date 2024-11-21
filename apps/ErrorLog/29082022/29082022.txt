@@ -1,0 +1,146 @@
+Time: 29/08/2022 01:16:58:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Out_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:16:59:579 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:16:59:581 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:17:12:902 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxHistory.aspx' OR UrlUser2='Out_TrxHistory.aspx' OR UrlUser3='Out_TrxHistory.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:25:02:894 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2022 01:25:02:912 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:40:16:627 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxReport.aspx' OR UrlUser2='Out_TrxReport.aspx' OR UrlUser3='Out_TrxReport.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 01:43:10:479 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2022 01:43:10:500 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:19:46:211 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/08/2022 02:19:46:237 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:54:34:755 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxSettingManagement '0','0','0','0','0','admin','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:54:35:420 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK02'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:54:35:788 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:54:36:386 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 02:54:36:898 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 03:01:43:508 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserManagement.aspx' OR UrlUser2='TrmUserManagement.aspx' OR UrlUser3='TrmUserManagement.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 03:52:08:805 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 03:52:08:822 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 03:52:08:905 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 03:52:09:470 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/08/2022 04:02:11:046 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

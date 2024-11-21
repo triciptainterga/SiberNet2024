@@ -1,0 +1,218 @@
+Time: 30/11/2022 08:33:06:182 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 08:37:34:570 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 08:41:03:025 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 08:44:56:748 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 08:46:31:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 10:58:46:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:14:16:615 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:20:52:942 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:36:55:516 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:02:182 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-11-30' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:02:186 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-11-30 00:01' And '2022-11-30 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:02:186 PM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-11-30 00:01' And '2022-11-30 23:59' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2022\30112022\30112022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecordsBigData(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 268
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/11/2022 01:37:05:747 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) And call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status='0' or call_status<>'Closed') And call_created_date between '2022-11-30 00:01' And '2022-11-30 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:06:602 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-11-30' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:933 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='1005' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:960 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='1005' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:963 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:967 PM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2022\30112022\30112022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:976 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='1758' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:19:981 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='1758' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:20:393 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_NamaAhliWaris] Where call_upload_id='a4ec1710-0461-4336-af82-85203be7d354' and call_polis_number = '81888579' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:23:440 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2022-11-30 00:01' And '2022-11-30 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:23:444 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='Agent1' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2022-11-30' 
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:37:23:450 PM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='Agent1' And call_date between '2022-11-30 00:01' And '2022-11-30 23:59' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2022\30112022\30112022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 30/11/2022 01:38:23:388 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 01:53:35:577 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:12:28:685 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:12:55:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:14:06:033 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:17:21:530 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:28:09:552 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:34:31:229 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','211216145450'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:36:34:083 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:36:56:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:38:30:963 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:40:11:499 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/11/2022 02:46:37:906 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+

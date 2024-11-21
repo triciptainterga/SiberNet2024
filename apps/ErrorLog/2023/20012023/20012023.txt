@@ -1,0 +1,348 @@
+Time: 20/01/2023 07:59:20:688 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:01:33:424 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:01:40:773 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2023-1-20 00:01' And '2023-1-20 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:01:40:775 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2023-1-20' 
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:01:40:779 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2023-1-20 00:01' And '2023-1-20 23:59' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2023\20012023\20012023.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/01/2023 08:03:34:207 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewUIDESK_TrxOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) and call_upload_status='1' And call_created_date between '2023-1-20 00:01' And '2023-1-20 23:59' 
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:03:34:209 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewOutboundHeader] Where call_agent='131950000004' and (call_reason <> 'Done' and call_reason <> 'Done Approved' and call_reason <> 'Done Not Approved' and call_reason <> 'Unregistered' and call_reason <> 'Wrong Number' or call_reason is null) and call_counting < (select call_jumlah from UIDESK_TrmReasonCallParamater) And (call_status = '0' or call_status <> 'Closed') And call_created_date < '2023-1-20' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2023\20012023\20012023.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecordsBigData(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 268
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/01/2023 08:03:34:209 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetailHeader] Where call_agent='131950000004' And call_date between '2023-1-20 00:01' And '2023-1-20 23:59' 
+Message: The process cannot access the file 'D:\V2_UIDESK\helpdesk_agent\apps\ErrorLog\2023\20012023\20012023.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 20/01/2023 08:10:02:199 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:13:23:012 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:22:44:544 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:22:44:551 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:22:44:562 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:22:44:576 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:29:41:087 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:32:11:255 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:32:51:428 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:32:51:434 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:32:51:442 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:32:51:473 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:38:26:273 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:38:26:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:38:26:283 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:38:26:295 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:42:23:577 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:42:23:582 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:42:23:588 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:42:23:602 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:47:04:583 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:48:36:987 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:48:36:992 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:48:36:998 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:48:37:012 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:49:22:617 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 08:50:55:968 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:21:56:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:25:53:300 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:29:16:983 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:40:18:772 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:40:18:778 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:40:18:786 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:40:18:799 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:47:54:900 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:47:54:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:47:54:910 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:47:54:922 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:50:42:538 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:50:42:542 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:50:42:547 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:50:42:561 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 10:57:14:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 11:39:57:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 11:40:44:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:41:17:569 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:41:38:190 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:44:39:666 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:44:39:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='131950000004' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:44:39:694 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  '131950000004'
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 12:44:39:719 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000004' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 03:57:27:955 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 04:14:25:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 05:48:06:337 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 20/01/2023 06:02:09:261 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,20 @@
+Time: 16/02/2023 10:18:59:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:19:39:009 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:20:40:905 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 01:19:39:902 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

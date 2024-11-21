@@ -1,0 +1,805 @@
+Time: 06/12/2023 07:15:18:765 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:15:19:048 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZDMOVXVGRPGCYEJTL4I2J3ATPU7NROBX2AGRXHCVW6GVBB8QTF' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:16:52:277 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:16:52:758 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LH7BGO78KDHFVQBXHP8CRABQ324K5BXSTOPB2UT4IIL5JLG6ZZ' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:19:44:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:19:44:465 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:19:44:485 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:19:44:522 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='QEFY3WN6FOGQJYKH783SNOMEOKPUGPJF0WMN3NA3PKZMDF3AZD' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:34:04:754 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:34:04:869 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='1IBPIYSAFQ7XMI8T01JT4X5BSRUKQTMO4YRMKI1JXMR07F0BDF' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:07:35:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:07:35:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:07:35:473 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:07:35:489 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='GB1F0QSHBW1XWQ54H6XNY0UUJMRTIXLZML04E1FLL67E23JKRG' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:11:03:959 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:11:03:969 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:11:03:983 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:11:04:001 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='4208SGLO8IDWGYBRD13VHQEHQAR2WF5CHTR37KFJ6GT2RIOVWR' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:17:00:749 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:17:00:894 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:17:02:247 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:17:02:368 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DZOLSB25QHUCSQFDPQI7HJ47UVCKMDZ1TRLNMF52KBIWHVFG8K' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:25:46:323 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:25:46:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:25:46:384 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:25:46:437 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DF7LJ3J0LOSZECOQP65R8BFDKTJVWJT22B2TM64DPVHOYH0KFT' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:53:27:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:53:27:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:53:28:833 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:53:28:932 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='V3WFD4QRS1O2GA0DWXFP80BHGCDZ10GKA048FYEB4YHIZZZEM6' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:59:13:603 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 10:59:13:664 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='KYVWAHC0XC42JQ7BGU7RMEQWIWRXGLUFFBV2RPJ3ERY4DZBX4S' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:02:01:248 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:02:01:346 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BCEWKOQFSNGJTNPZ6GQZ5KGTREIX7YP5WJRXI2YP7MSQNKGF1S' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:34:21:923 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:34:22:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:34:24:311 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 11:34:24:422 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='1F8XL318CXN67Y72L1WAROVGFAL3HIYU75FEG655QRY7L1XIIZ' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:26:23:349 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:26:23:546 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0CV5HR0RSDIJM2RJLQE31KJRPYS1BG6EXX05D8DBI5TI2VSUK6' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:37:18:320 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:37:18:338 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:37:18:726 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:37:19:149 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='N3WMB73WD6KYMWGH35ZW7W37DEE0WHKCRAWDBB4L651WNST6SY' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:48:24:498 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:48:24:510 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:48:24:701 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 12:48:24:719 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='PS8ZT2Z5UZ8LPRZ17H0DWK7R4C6Q6ZH3UJ048ELUW80MHPO6RO' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:00:122 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:00:139 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:00:255 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:00:289 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0CE8ZEL5INZ2XHPKA7H3ZNHZ7VFC4ZHDM4P3BNL6KJC8QREJJN' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:28:056 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','wandairwansyah30@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:28:278 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061053154322038' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:44:032 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:06:44:111 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VBN0PK1YQAF8J722RKXJFAM4MB6JZASXWXIJ6E7V4ZEZGGM48D' WHERE USERNAME ='Agent2'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:07:02:269 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:07:03:115 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='UKJ5R5FRJRCAIJYKRETFKIDVDZF6PU3JJA6T2J1G55DUDBKJAO' WHERE USERNAME ='Agent3'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:07:16:699 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','rizalsamsurizal708@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 01:07:16:925 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312051819030491278' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:02:44:720 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:02:44:842 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='WI14NJUBSZILDB0B7ZCJ3VO1UYFOOGDHZNC3PBIKSAT7UWD1XL' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:08:03:179 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:08:03:341 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0NJBMZRRLBENJAU7UUT28P243GSW3LKC184LPSIQNQE42MFESF' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:15:46:830 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:15:46:848 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:15:46:884 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:15:46:927 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='W2ZQHSYMX6GPQ6FD2W1R3E26EYWIDK8XVFO47N3RLRZH2XJRG7' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:54:34:721 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:54:35:528 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='751MDYVKG4T8J7EZBY3I5R1S1VAI4HAYS7CBXZ2JNFJJ7EQKKS' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:14:088 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:14:179 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='3K4HZDYOUKVJN7IHPOJBFH33KRD2FH77BC5LLZZJPYFZ1FB50X' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:39:245 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:39:666 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='AgentWhatsApp03' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:39:684 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 02:55:39:704 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='N4O3CQQOLI2QND6QBIPFVF4LTIVWPW1ICGE200EOIDHBFXU4CH' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 03:09:06:646 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 03:09:06:657 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='AgentWhatsApp03' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 03:09:06:729 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 03:09:06:743 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='21N5BCEJS2GIYI6H35DRIQFJH4UQ51XZU7D7LPZDXTL57N0Z58' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 03:09:22:300 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','6282268032520'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 04:26:49:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 04:26:49:912 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 04:26:50:015 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 04:26:50:044 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='H78XEDUWIYPUFCVVB5L4BMZ47J7OE0E7CZZ8F3IR4VLI574PYA' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 05:37:09:878 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 05:37:10:223 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LE7AS4R10SYTWXR23IRCPNPK68UFEQNLL7MBZB2LHLCY3KAAAT' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:01:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:01:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:29:853 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+Message: Object reference not set to an instance of an object.
+StackTrace:    at ICC.auth_login.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_login.aspx.vb:line 299
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/12/2023 06:35:45:629 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:45:760 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Agent1' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:46:109 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:35:46:187 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BXDB2243FRLEQHCM5MM344GCJ4XHTPQWQNB6OC66DXNQPO0JLU' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:38:38:088 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:38:38:398 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0SV0QRA5X5JJKJAMOZ8CY3S3JTWGSUMM2WA5Q5G4OBL0UEIATX' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:39:01:582 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','the.defender049@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:39:02:052 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061447235348861' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:39:27:554 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','rizalsamsurizal708@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:39:34:812 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061716009207015' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:41:20:343 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','the.defender049@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:41:22:039 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061447235348861' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:42:51:453 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','the.defender049@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:42:51:659 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061447235348861' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:43:00:946 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxEmailDetail] where EMAIL_ID='202312061447235348861' 
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 06:43:01:518 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','the.defender049@gmail.com'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:34:25:196 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:34:26:086 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DYXL3524IN5CU33GQQ4HB0BR4Q2ZUFFSL3Z04T1WS1PT3QHRXX' WHERE USERNAME ='Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:58:53:264 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:58:55:541 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='AgentWhatsApp03' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:58:57:532 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:58:58:154 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='I2E1XT6OO3KN22BYOWD214S1FYPAGBNI4P5IMJQYSXA0Y7AM3X' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:59:48:919 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 07:59:51:320 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='BJ4K2Q5NN46DADWM7Q34MGUZMTN2WJL8E23WH1HOEXAA476XKT' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:00:36:697 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:38:22:227 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:38:22:363 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='O7AOAPHHJHIBAIV38DR71J0QLI17I4YE31CTUSH15D7PHZ3JGS' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:40:13:467 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:41:28:538 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:42:58:598 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:43:00:895 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:44:51:224 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:44:52:025 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='76EMJRGEKDS7U03ALT43M4L3MTPAIZZLLPKW0IZZKNLGCHCXYC' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:57:26:828 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:57:29:063 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='VS341B7HMW5BY81NQ1C7PAZFQB2GOT82LAE1FBYNE8RERSSP21' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:57:55:859 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 08:57:59:748 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:00:42:405 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:00:42:495 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='J5EGE0B8E5PRNAH5710Y1G5AXUTF1RE82FQH6HP2EL5T4ISJO5' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:03:01:360 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:03:04:763 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:04:03:249 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:04:04:902 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:04:23:374 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:04:53:489 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:05:06:104 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:05:19:228 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:06:10:634 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:06:11:355 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','08111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:07:22:978 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:07:23:549 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:07:45:965 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:07:47:371 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:10:32:996 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:10:34:450 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','08111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:11:09:964 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:11:10:491 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','08111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:11:33:926 PM
+---------------------------Success-------------------------------------------------------
+Message: exec DataNomorWhatsApp '628111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:11:35:785 PM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'PageLoad','08111160181'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:13:50:643 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ICC.auth_login.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_login.aspx.vb:line 49
+Source: .Net SqlClient Data Provider
+TargetSite: Boolean TryGetConnection(System.Data.Common.DbConnection, UInt32, Boolean, Boolean, System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal ByRef)
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/12/2023 09:13:54:819 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:13:55:094 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='AgentWhatsApp03' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:13:57:460 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:13:57:491 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='OYTLJRDD6AHR773AOIYU344AHCYRDNONMKQ7W1YJOJS6Q8QX6S' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:15:01:276 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:15:04:089 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='AgentWhatsApp03' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:15:04:752 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/12/2023 09:15:04:773 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='C5MN6H87X37IMU3OLMQKWKO6YMKIOX85DQFQCVPYB8JS4OM6OE' WHERE USERNAME ='AgentWhatsApp03'
+---------------------------Success-------------------------------------------------------
+

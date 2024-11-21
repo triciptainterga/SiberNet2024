@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+
+    <title>Social Media Data</title>
+
+    <!-- Vendors Style-->
+    <link rel="stylesheet" href="../css/vendors_css.css">
+
+    <!-- Style-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/skin_color.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+        $(document).ready(function () {
+            console.log("Conversation ID " + getParameterByName('convid'));
+          
+            //console.log("Go to ContentInboxMessage Value: " + value);
+            $("#LoaderPageChat").show();
+            $("#HTMLcontent_inboxMessage").hide();
+            $("#HTMLcontent_inboxCommentMessage").empty();
+
+            //ini popup auto sync di awal show_CustSync(value);
+            //getWS_MasterLeadsAPI(value);
+
+            var jsonText;
+
+            var HTMLcontent_header_inbox = $("#HTMLcontent_header_inboxMessage");
+            var HTMLcontent_inbox = $("#HTMLcontent_inboxMessage");
+            var agentName = "0";
+
+            jsonText = JSON.stringify({ FlagTo: 'WAhistory', postid: getParameterByName('convid') });
+            $.ajax({
+                type: "POST",
+                url: "../3_Channel_Sosmed.asmx/GetDataContentInboxMessage",
+                data: jsonText,
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (data) {
+                    var json = JSON.parse(data.d);
+                    var i, x, resultListContentInboxSocialMedia = "", resultListContentHeaderSocialMedia = "";
+                    HTMLcontent_header_inbox.empty();
+                    HTMLcontent_inbox.empty();
+                    for (i = 0; i < 1; i++) {
+                        var stringMessages = json[i].Messages;
+                        var stringName = json[i].ProfileName;
+                        var stringDate = json[i].DateGetSosmed;
+                        var stringStatusType = json[i].StatusType;
+                        var stringTotal = json[i].Total;
+                        var profilePIC = json[i].DetailSosmed;
+						
+                        agentName = json[i].StatusType;
+                        resultListContentHeaderSocialMedia = '<div class="media align-items-top p-0">' +
+                            '<div class="d-lg-flex d-block justify-content-between align-items-center w-p100">' +
+                            '<div class="media-body mb-lg-0 mb-20">' +
+                            '<p class="font-size-16">' +
+                            '<a class="hover-primary" href="#"><strong>' + stringName + '</strong></a>' +
+                            '</p>' +
+                            '<p class="font-size-12">' + stringDate + '</p>' +
+                            '</div>' +
+                            '<div>' +
+                            '</div>' +
+                            '</div>' +
+                            '</div>';
+                        HTMLcontent_header_inbox.append(resultListContentHeaderSocialMedia);
+                    }
+                    for (i = 0; i < json.length; i++) {
+                        //alert(json[i].UserCreate);
+                        console.log(json[i]);
+                        var stringMessages = json[i].Messages;
+						console.log(stringMessages);
+                        var stringName = json[i].ProfileName;
+                        var stringDate = json[i].DateGetSosmed;
+                        var stringStatusType = json[i].StatusType;
+                        var stringTotal = json[i].Total;
+                        var flagToChat = json[i].FlagTo;
+                        var profilePIC = json[i].DetailSosmed;
+                        var varFileNya = 0;
+                        if (!profilePIC.match(/.(jpg|jpeg|png|gif)$/i)) {
+                            console.log('Non image');
+                            if (profilePIC == "0" || profilePIC == "") {
+                                varFileNya = "";
+                            } else {
+                                varFileNya = '<div><a href="../' + profilePIC + '"> ' +
+                                    '<a href="../' + profilePIC + '" target="_blank"> Download...' +
+                                    '</a></div>';
+                            }
+                        } else {
+                            console.log('This is image');
+                            if (profilePIC == "0" || profilePIC == "") {
+                                varFileNya = "";
+                            } else {
+                                varFileNya = '<div><a href="' + profilePIC + '"> ' +
+                                    '<img src="' + profilePIC + '"> ' +
+                                    '</a></div>';
+                            }
+                        }
+                
+                        if (flagToChat == "customer") {
+                            resultListContentInboxSocialMedia =
+                                '<div class="card d-inline-block mb-3 float-left mr-2 no-shadow bg-lighter max-w-p80"> ' +
+                                '<div class="position-absolute pt-1 pr-2 r-0"> ' +
+                                '<span class="text-extra-small text-muted">' + stringDate + '</span> ' +
+                                '</div> ' +
+                                '<div class="card-body"> ' +
+                                '<div class="d-flex flex-row pb-2"> ' +
+                                '<div class="d-flex flex-grow-1 min-width-zero"> ' +
+                                '<div class="m-2 pl-0 align-self-center d-flex flex-column flex-lg-row justify-content-between"> ' +
+                                '<div class="min-width-zero"> ' +
+                                '<p class="mb-0 font-size-16 text-dark">' + stringName + '</p> ' +
+                                '</div> ' +
+                                '</div> ' +
+                                '</div> ' +
+                                '</div> ' +
+                            '<div class="chat-text-left pl-10"> ' +
+                            varFileNya +
+                                '<p class="mb-0 text-semi-muted">' + stringMessages + '</p> ' +
+                                '</div> ' +
+                                '</div> ' +
+                                '</div><div class="clearfix"></div>';
+                        } else if (flagToChat == "agent" ) { 
+                        resultListContentInboxSocialMedia =
+                            '<div class="card d-inline-block mb-3 float-right mr-2 bg-primary max-w-p80"> ' +
+                            '<div class="position-absolute pt-1 pl-2 l-0"> ' +
+                            '<span class="text-extra-small">' + stringDate + '</span> ' +
+                            '</div> ' +
+                            '<div class="card-body"> ' +
+                            '<div class="d-flex flex-row pb-2"> ' +
+                            '<div class="d-flex flex-grow-1 justify-content-end"> ' +
+                            '<div class="m-2 pl-0 align-self-center d-flex flex-column flex-lg-row justify-content-between"> ' +
+                            '<div> ' +
+                            '<p class="mb-0 font-size-16">' + agentName + '</p> ' +
+                            '</div> ' +
+                            '</div> ' +
+                            '</div> ' +
+                                '</div> ' +
+                            '<div class="chat-text-left pr-20"> ' +
+                            varFileNya +
+                            '<p class="mb-0 text-semi-muted">' + stringMessages + '</p> ' +
+                            '</div> ' +
+                            '</div> ' +
+                                '</div><div class="clearfix"></div>';
+                        }
+                        $("#LoaderPageChat").hide();
+                        HTMLcontent_inbox.show();
+                        HTMLcontent_inbox.append(resultListContentInboxSocialMedia);
+                    }
+
+                    //getWS_PhotoSocialMedia(value);
+
+                },
+                error: function (xmlHttpRequest, textStatus, errorThrown) {
+                    console.log(xmlHttpRequest.responseText);
+                    console.log(textStatus);
+                    console.log(errorThrown);
+                }
+            })
+        });
+    </script>
+</head>
+
+<body class="hold-transition light-skin theme-primary">
+    <div class="box bg-lightest">
+        
+        <!-- Loader -->
+        <center><div class="spin2" id="LoaderPageChat"></div></center>
+        <!--End-->
+        <div class="box-body">
+			
+            <div class="chat-box-one2">
+             
+				<div class="col-lg-6 col-12">
+					<div class="box">
+						<div id="HTMLcontent_inboxMessage"></div>
+					</div>
+				</div>
+			
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- /.content-wrapper -->
+</body>
+</html>

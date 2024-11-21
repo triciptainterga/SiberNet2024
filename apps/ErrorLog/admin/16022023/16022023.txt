@@ -1,0 +1,645 @@
+Time: 16/02/2023 10:22:04:652 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:04:661 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:04:725 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:04:766 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:04:768 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:22:07:611 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:07:745 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:09:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:10:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:25:228 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1217','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:25:281 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:25:675 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:25:790 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:22:29:751 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1217','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:23:11:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1217','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:23:11:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:23:11:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:23:12:086 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:05:715 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:05:755 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:05:974 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:05:974 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:05:975 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:25:13:369 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:13:954 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:15:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:15:927 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:28:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:28:337 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:28:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:28:848 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:32:118 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:33:356 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:25:34:032 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:27:04:601 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:03:066 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:03:200 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:03:548 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:03:689 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:17:942 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:18:656 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:20:141 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:49:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:49:846 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:50:229 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:50:360 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:30:55:879 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:31:40:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:31:40:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:31:40:496 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:31:41:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:31:46:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:10:832 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:11:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:11:799 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:12:336 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:28:974 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:29:112 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:29:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:29:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:33:148 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:57:588 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:58:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:58:580 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:32:59:105 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:33:14:239 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:33:14:665 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:33:14:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:33:15:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:34:08:135 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:34:18:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:38:25:936 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:38:26:076 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:38:26:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:38:26:583 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:38:36:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','admin','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:14:611 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:14:705 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:15:060 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:15:060 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:15:061 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 157
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 11:44:28:771 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:29:276 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:29:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:30:398 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:58:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:44:59:228 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:01:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:02:164 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:21:318 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Tele_Telemarketing_Excel '20230216114520864','1dee3d61-3013-4d78-ae4b-2777096ffc67','admin','3'
+Message: Cannot initialize the data source object of OLE DB provider "Microsoft.ACE.OLEDB.12.0" for linked server "(null)".
+OLE DB provider "Microsoft.ACE.OLEDB.12.0" for linked server "(null)" returned message "'C:\UIDESK\helpdesk_agent\helpdesk_agent\FileTelemarketing\20230216114520864\1dee3d61-3013-4d78-ae4b-2777096ffc67.xlsx' is not a valid path. Make sure that the path name is spelled correctly and that you are connected to the server on which the file resides.".
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.Tele_TrxUpload1.TeleUpload_1() in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxUpload.asmx.vb:line 291
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 11:45:21:374 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_Telemarketing_Excel '20230216114520864','1dee3d61-3013-4d78-ae4b-2777096ffc67','admin','3'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:33:707 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:34:120 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:34:215 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:45:34:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:29:623 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:30:158 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:33:719 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:34:251 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:57:898 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:58:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:58:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:51:59:237 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:52:37:574 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:52:38:148 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK72'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:52:42:654 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:52:43:167 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:04:107 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','admin','UIDESK85'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:04:491 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:05:025 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK83'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:05:206 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:05:512 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:05:719 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '7','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:27:323 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:27:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:28:245 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:57:28:868 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:58:16:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1256','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:58:16:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:58:17:401 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 11:58:17:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

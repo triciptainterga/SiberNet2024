@@ -1,0 +1,218 @@
+Time: 18/07/2022 02:12:45:995 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000026','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:46:110 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:46:728 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000026','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:46:732 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000026' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:46:747 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/07/2022 02:12:49:188 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:51:919 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000026', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:52:071 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:52:369 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000026', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:12:52:677 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:01:987 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='TrxTaskboardCall.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:02:756 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxOutboundAgentCounting '131950000026'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:03:045 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:03:456 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:23:580 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='TrxOutboundCall.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:24:817 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:25:388 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:13:26:317 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxViewOutboundHeader '214635','085894581419'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:08:131 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='TrxOutboundCall.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:09:336 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxViewOutboundHeader '214635','085894581419'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:12:985 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:13:592 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:20:715 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='TrxOutboundCall.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:21:570 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxViewOutboundHeader '214635','085894581419'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:21:672 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:22:184 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:55:884 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='TrxOutboundCall.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:56:592 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxViewOutboundHeader '214635','085894581419'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:56:778 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:14:57:383 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:13:937 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000026','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:13:987 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:14:037 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000026','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:14:038 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000026' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:14:040 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 18/07/2022 02:18:14:542 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000026' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:15:304 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000026', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:15:590 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:16:850 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000026', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 18/07/2022 02:18:17:209 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000026','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

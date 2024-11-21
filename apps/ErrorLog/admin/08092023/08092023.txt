@@ -1,0 +1,612 @@
+Time: 08/09/2023 08:23:59:711 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:23:59:738 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:23:59:803 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:23:59:805 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:23:59:812 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:24:04:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:05:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:06:338 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:06:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:17:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:17:322 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:17:991 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:18:346 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:30:556 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:30:571 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:31:330 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Pending', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:31:594 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:24:59:889 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:25:00:394 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:25:00:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:25:01:540 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:07:814 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:07:831 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:07:911 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:07:911 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:07:912 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:10:626 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:11:121 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:11:130 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:11:656 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:346 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrxFilterDate(String TrxID, String StartDate, String EndDate, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1206
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:349 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:386 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.DataTransactionEmailCounting(String TrxUserName, String TrxLevelUser) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1152
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:387 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:407 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:16:980 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:17:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:17:879 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:17:881 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:18:453 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrmMasterDropdown(String TrxID, String TrxEvent, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1454
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:18:454 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 08:55:18:896 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 08:55:18:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:826 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrxFilterDate(String TrxID, String StartDate, String EndDate, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1206
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:826 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:843 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrmMasterDropdown(String TrxID, String TrxEvent, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1454
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:843 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:48:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:49:360 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:49:860 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.DataTransactionEmailCounting(String TrxUserName, String TrxLevelUser) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1152
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:24:49:861 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:50:375 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:24:50:376 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:50:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:24:51:390 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:24:51:390 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:838 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+Message: Conversion failed when converting date and/or time from character string.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrxFilterDate(String TrxID, String StartDate, String EndDate, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1206
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:839 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','admin','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:857 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.UIDESK_TrmMasterDropdown(String TrxID, String TrxEvent, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1454
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','admin','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:870 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:16:883 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:17:359 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:56:17:360 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:17:871 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5310
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:56:17:872 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:18:387 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:18:923 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+Message: Invalid object name 'UIDESK_TrmFilterDate'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.TrmMailSystem1.DataTransactionEmailCounting(String TrxUserName, String TrxLevelUser) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMailSystem.asmx.vb:line 1152
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 09:56:18:923 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'admin','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 09:56:19:989 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:09:118 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:09:147 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:09:242 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:09:243 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:09:245 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/09/2023 12:37:12:035 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:12:574 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:13:070 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/09/2023 12:37:13:539 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+

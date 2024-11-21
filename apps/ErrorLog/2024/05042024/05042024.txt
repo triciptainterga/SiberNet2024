@@ -1,0 +1,30 @@
+Time: 05/04/2024 05:46:37:889 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/04/2024 05:46:38:276 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='CVK33T04RPBYGSBJG5KAGJ7K7Q7CMEO0TQKZUEOJZKRB5EMTSO' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/04/2024 05:56:40:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/04/2024 05:56:40:862 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='SuperAgent' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/04/2024 05:56:41:128 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'SuperAgent'
+---------------------------Success-------------------------------------------------------
+
+Time: 05/04/2024 05:56:41:245 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='B2DHGI3375RKOVJ2JH783ULMYFML4UGFB8RLOIBEFOHVPN5SCF' WHERE USERNAME ='SuperAgent'
+---------------------------Success-------------------------------------------------------
+

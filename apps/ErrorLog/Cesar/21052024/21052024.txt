@@ -1,0 +1,979 @@
+Time: 21/05/2024 11:28:43:120 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:43:142 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Cesar'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:43:146 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Cesar','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:43:147 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Cesar' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:43:245 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:44:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Cesar', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:44:208 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:28:44:212 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:44:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Cesar', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:45:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:45:025 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:45:526 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:46:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:199 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Cesar','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:817 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:820 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Cesar','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:824 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Cesar','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:934 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:939 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:945 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:28:47:946 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:48:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:48:320 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:48:446 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:48:829 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:49:329 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:52:289 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMS','UideskIndonesia','Cesar','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:52:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMSU','UideskIndonesia','Cesar','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:54:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:28:55:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:00:611 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00008','UideskIndonesia','Cesar','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:01:768 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00015','UideskIndonesia','Cesar','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:02:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00016','UideskIndonesia','Cesar','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:04:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00020','UideskIndonesia','Cesar','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:04:227 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Cesar','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:43:860 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Cesar','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:43:873 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00008','UideskIndonesia','Cesar','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:43:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00015','UideskIndonesia','Cesar','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:43:882 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00016','UideskIndonesia','Cesar','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:43:886 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00020','UideskIndonesia','Cesar','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:44:065 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:29:44:131 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Cesar','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:08:785 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:259 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Cesar','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:265 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:268 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:272 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:298 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Cesar','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:301 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:429 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:441 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:442 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:776 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:09:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:10:288 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:10:790 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Cesar','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:12:144 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMS','UideskIndonesia','Cesar','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:12:249 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMSU','UideskIndonesia','Cesar','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:14:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:14:820 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:20:057 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00008','UideskIndonesia','Cesar','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:21:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00015','UideskIndonesia','Cesar','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:22:558 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00016','UideskIndonesia','Cesar','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:24:166 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00020','UideskIndonesia','Cesar','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:30:24:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Cesar','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:712 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Cesar','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:723 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00008','UideskIndonesia','Cesar','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:727 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00015','UideskIndonesia','Cesar','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00016','UideskIndonesia','Cesar','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:736 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00020','UideskIndonesia','Cesar','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:49:948 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Cesar','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:50:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Cesar','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:52:286 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240521113152024','Call','CAT-00008','CT1-00015','CT2-00016','CT3-00020','<p>SELASA01</p>
+','<p>SELASA01</p>
+','12','Open','Cesar','202405211131520249038806','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','Medium','Default','CT3-00020','Call','2024-05-21T11:30','1026','4','Cesar','1073','2','202405211131520249038806', '20240521113152024903880723', '-','0','-','Fine','Nusa Dua - Ngurah Rai - Benoa'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:31:54:171 AM
+---------------------------Success-------------------------------------------------------
+Message: {"id":"10123","key":"MRH-94","self":"https://cantas-support.atlassian.net/rest/api/3/issue/10123"}
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:01:686 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '231128215128','Cesar','null'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:05:052 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_PublishTransaction '231128215128','Cesar'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:05:327 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:06:308 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Cesar', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:06:313 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:32:06:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:06:669 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Cesar', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:07:117 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:07:135 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:07:636 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:08:138 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:12:626 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:132 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Open','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:167 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:171 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Cesar','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Cesar','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:180 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:263 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Cesar','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:268 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:272 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:277 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:283 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:284 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:651 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:661 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:665 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Cesar','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:13:772 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Cesar','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:14:148 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:14:186 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 11:32:14:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240521113152024','Cesar','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:14:247 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Cesar','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 11:32:14:652 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:11:876 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:11:899 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Cesar'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:11:904 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Cesar','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:11:905 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Cesar' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:12:346 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:13:517 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Cesar', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:13:533 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 03:46:13:573 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:13:933 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:14:444 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:14:953 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:15:466 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:46:16:206 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Cesar', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:243 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:842 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Cesar','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:846 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:853 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Cesar','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:856 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:859 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:888 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Cesar','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:990 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:42:998 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:005 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:013 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:014 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:356 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:497 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:43:867 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:44:378 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:47:44:887 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Cesar','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:40:068 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:41:303 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Cesar', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:41:311 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 03:48:41:312 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:41:665 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Cesar', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:42:105 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:42:120 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:42:137 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:42:634 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:47:000 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Cesar' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:47:775 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Cesar', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:47:782 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/05/2024 03:48:47:783 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:48:194 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Cesar', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:48:576 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:48:607 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:49:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/05/2024 03:48:49:621 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Cesar','UIDESK66'
+---------------------------Success-------------------------------------------------------
+

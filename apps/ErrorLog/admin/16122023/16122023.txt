@@ -1,0 +1,1606 @@
+Time: 16/12/2023 05:03:47:033 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:03:47:054 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:03:47:110 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:03:47:112 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:03:47:119 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:04:04:730 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:05:186 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:05:448 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:06:014 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:25:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:25:318 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:25:727 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:25:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:26:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:26:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:54:853 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:54:969 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:55:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:55:380 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:55:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:04:55:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:30:723 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:31:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:31:282 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:31:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:31:794 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:05:32:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:39:744 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:39:791 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:39:792 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:41:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:41:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:42:158 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:42:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:50:977 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:51:106 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:51:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:51:513 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:51:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:29:52:028 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:31:36:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '73','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:50:842 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:50:925 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:51:352 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:51:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:51:865 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:32:51:896 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:33:05:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '76','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:02:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:02:375 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:02:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:02:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:03:404 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:03:913 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:05:379 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:05:400 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:05:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:05:907 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:06:400 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:06:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:12:889 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '73','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:27:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '34','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:59:820 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:34:59:870 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:00:331 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:00:357 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:00:832 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:00:865 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:03:455 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '1','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:36:658 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:37:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:37:679 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:37:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:38:185 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:38:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:35:39:582 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '1','0','0','0','0','0','0','0','0','undefined','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:21:012 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:21:032 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:21:110 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:21:111 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:21:114 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:44:38:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:38:504 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:38:569 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:39:077 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:48:471 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:48:497 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:48:988 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:49:004 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:49:499 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:49:512 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:52:236 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryType '0','0','admin','0','0','CHANGE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:44:53:772 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryDetail '0','0','admin','0','0','CHANGE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:45:05:844 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxCategoryReason '0','CAT-00005','CT1-00002','CT2-00002','xxx','1071','2','1','Y','admin','INSERT','xxxx',,'YES'
+Message: Procedure or function UIDESK_TrxCategoryReason has too many arguments specified.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ICC.WebServiceGetDataMaster.InsertTransactionTrmCategoryReason(String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName, String TrxReasonCode, String TrxEscalationTicket) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2677
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:45:05:848 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxCategoryReason '0','CAT-00005','CT1-00002','CT2-00002','xxx','1071','2','1','Y','admin','INSERT','xxxx',,'YES'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:45:05:848 AM
+---------------------------Success-------------------------------------------------------
+Message: 
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:12:404 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:12:469 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:12:470 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:15:341 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:16:223 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:16:694 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:17:225 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:23:865 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:23:906 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:49:23:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:23:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:24:376 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:24:582 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:24:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:42:754 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:42:782 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:49:42:784 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:42:825 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:43:258 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:43:329 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:49:43:767 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:17:401 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:17:549 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:50:17:550 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:17:887 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:17:981 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:18:395 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:18:490 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:28:202 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryType '0','0','admin','0','0','CHANGE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:29:276 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryDetail '0','0','admin','0','0','CHANGE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:44:920 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxCategoryReason '0','CAT-00005','CT1-00002','CT2-00002','XXX','1071','2','1','Y','admin','INSERT','XXX',,'YES'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:48:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:48:522 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 05:50:48:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:48:545 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:49:088 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:49:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:50:49:560 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:610 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','admin','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:620 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','admin','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:761 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:778 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:16:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:17:125 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:17:634 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:18:143 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','admin','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:18:654 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:19:158 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','admin','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:33:227 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','admin','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:34:388 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','admin','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:35:504 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','admin','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:36:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00002','UideskIndonesia','admin','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 05:52:36:733 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1071','UideskIndonesia','admin','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:32:463 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:32:497 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:32:498 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:35:589 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:35:648 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:35:661 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:36:170 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:45:935 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:45:973 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:01:45:974 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:46:001 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:46:429 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:46:509 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:01:46:942 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:17:289 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:17:393 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:17:766 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:17:769 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:17:776 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:27:45:547 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:46:153 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:46:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:47:142 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:071 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:105 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:110 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:170 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:585 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:57:697 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:27:58:094 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:41:475 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:41:513 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:41:567 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:41:571 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:41:576 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:32:44:944 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:45:555 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:46:705 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:46:983 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:51:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:51:876 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:52:027 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:52:385 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:52:408 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:32:52:919 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:32:52:923 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:54:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:001 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:002 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:475 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:881 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:33:55:985 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:359 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:415 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:434 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:864 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:02:952 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:03:382 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:12:723 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:12:911 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:12:912 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:16:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:16:477 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:16:519 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:17:033 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:26:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:26:718 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:27:176 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:27:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:27:253 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategory '-','admin','-','-','SELECT'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:27:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:27:972 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:28:491 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:35:28:492 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:28:812 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:33:588 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:33:616 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+Message: Procedure or function 'UIDESK_TrxCategoryReason' expects parameter '@TrxReasonCode', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.TableTransactionTrmCategoryReason(String TrxID, String TrxCategoryID, String TrxSubCategory1ID, String TrxSubCategory2ID, String TrxName, String TrxEscalationUnit, String TrxLayer, String TrxSLA, String TrxStatus, String TrxUserName) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 2592
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:35:33:617 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:33:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:34:088 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:34:234 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:35:34:628 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:38:52:180 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:38:52:211 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:38:52:476 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:38:52:478 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:38:52:482 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 06:39:17:807 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:18:251 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:18:762 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:19:422 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:24:914 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:25:061 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE','0','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:25:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:25:449 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:25:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:25:980 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:39:33:121 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '1','0','0','0','0','0','0','0','0','undefined','SELECT','0','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:00:663 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdownCategory 'UideskIndonesia','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:00:859 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '-','0','0','0','0','0','0','0','0','admin','TABLE','0','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:01:162 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec V2_UIDESK_TrxLayer 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:01:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:01:666 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmEscalationUnit 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:01:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 06:40:03:645 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCategoryReason '1','0','0','0','0','0','0','0','0','undefined','SELECT','0','0','0'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:12:59:267 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:12:59:300 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:12:59:347 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:12:59:348 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:12:59:350 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/12/2023 07:13:12:955 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:13:469 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:14:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:14:999 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:18:957 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:19:041 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:19:486 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/12/2023 07:13:19:999 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+

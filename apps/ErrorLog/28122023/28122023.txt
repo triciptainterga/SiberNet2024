@@ -1,0 +1,284 @@
+Time: 28/12/2023 06:41:36:773 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:41:37:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:41:52:344 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '3','admin','Email Notification Ticket Closed','<p>Close ticket</p>
+
+<p>Permintaan Anda telah kami terima dan sedang diproses</p>
+
+<p>&nbsp;</p>
+
+<p>Terima kasih telah menghubungi kami</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:42:08:151 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '4','admin','Email Notification Ticket Create','<p>Create ticket</p>
+
+<p>Permintaan Anda telah kami terima dan sedang diproses</p>
+
+<p>&nbsp;</p>
+
+<p>Terima kasih telah menghubungi kami</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:43:10:505 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '7','admin','Email Notification Ticket Closed','<p>Kepada Yth,<br />
+Bapak/Ibu {nama_nasabah}</p>
+
+<p>Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu.</p>
+
+<p><br />
+Bersama ini kami sampaikan nomor Tiket Bapak/Ibu {nama_nasabah} dengan {no.tiket} telah berhasil diselesaikan.</p>
+
+<p>Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu mohon menghubungi langsung ke layanan Customer Care kami, dengan senang hati kami akan membantu anda.</p>
+
+<p>Atas perhatian dan kerjasamanya, kami ucapkan terima kasih.</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+','CUSTOMER','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:43:44:652 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '6','admin','Email Notification Ticket Create','<p>Kepada Yth,</p>
+
+<p>Bapak/Ibu {nama_nasabah}</p>
+
+<p>Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu.</p>
+
+<p>Bersama ini kami sampaikan nomor Tiket Bapak/Ibu {no.tiket}</p>
+
+<p>Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu mohon menghubungi langsung ke layanan Customer Care kami, dengan senang hati kami akan membantu anda.</p>
+
+<p>&nbsp;</p>
+
+<p>Atas perhatian dan kerjasamanya, kami ucapkan terima kasih.</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+','CUSTOMER','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:44:12:232 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationSetting '6','admin','YES'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:44:13:239 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationSetting '5','admin','YES'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:45:48:298 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:45:48:924 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:45:57:774 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '2','admin','Email Notification Ticket Over SLA','<p>Permintaan Anda telah kami terima dan sedang diproses</p>
+
+<p>&nbsp;</p>
+
+<p>Terima kasih telah menghubungi kami</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:46:07:418 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '3','admin','Email Notification Ticket Closed','<p>Close ticket</p>
+
+<p>Permintaan Anda telah kami terima dan sedang diproses</p>
+
+<p>&nbsp;</p>
+
+<p>Terima kasih telah menghubungi kami</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:46:19:310 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '4','admin','Email Notification Ticket Create','<p>Create ticket</p>
+
+<p>Permintaan Anda telah kami terima dan sedang diproses</p>
+
+<p>&nbsp;</p>
+
+<p>Terima kasih telah menghubungi kami</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:46:29:529 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '5','admin','Email Notification Ticket Escalation','<p>Dear Supervisor Agent<br />
+&nbsp;<br />
+Bersama ini kami sampaikan bahwa Tiket Nomor. {no.tiket} dengan permasalahan :&nbsp;<br />
+&nbsp;<br />
+{Customer_Question}<br />
+&nbsp;<br />
+Mohon kiranya dapat segera menyelesaikan atau mengeskalasi Tiket Nomor. {no.tiket} kepada {Divisi}.<br />
+&nbsp;<br />
+Demikian disampaikan, atas perhatian dan kerjasamanya, kami ucapkan terima kasih.<br />
+&nbsp;<br />
+&nbsp;&nbsp;<br />
+Salam,<br />
+&nbsp;<br />
+&nbsp;<br />
+<strong>CUSTOMER CARE</strong></p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:46:41:020 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '6','admin','Email Notification Ticket Create','<p>Kepada Yth,</p>
+
+<p>Bapak/Ibu {nama_nasabah}</p>
+
+<p>Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu.</p>
+
+<p>Bersama ini kami sampaikan nomor Tiket Bapak/Ibu {no.tiket}</p>
+
+<p>Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu mohon menghubungi langsung ke layanan Customer Care kami, dengan senang hati kami akan membantu anda.</p>
+
+<p>&nbsp;</p>
+
+<p>Atas perhatian dan kerjasamanya, kami ucapkan terima kasih.</p>
+
+<p>&nbsp;</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','CUSTOMER','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:46:52:332 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '7','admin','Email Notification Ticket Closed','<p>Kepada Yth,<br />
+Bapak/Ibu {nama_nasabah}</p>
+
+<p>Terima kasih kami ucapkan atas kepercayaan Bapak/Ibu. Kami senantiasa berupaya memberikan pelayanan terbaik dan profesional bagi Bapak/Ibu.</p>
+
+<p><br />
+Bersama ini kami sampaikan nomor Tiket Bapak/Ibu {nama_nasabah} dengan {no.tiket} telah berhasil diselesaikan.</p>
+
+<p>Demikian disampaikan, apabila ada hal yang lain yang dapat kami bantu mohon menghubungi langsung ke layanan Customer Care kami, dengan senang hati kami akan membantu anda.</p>
+
+<p>Atas perhatian dan kerjasamanya, kami ucapkan terima kasih.</p>
+
+<p>Salam,</p>
+
+<p>CUSTOMER CARE</p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','CUSTOMER','','YES','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/12/2023 06:47:01:528 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxNotificationTemplate '9','admin','Email Notification Ticket Escalation Department','<p><strong>Dear</strong>&nbsp;{Divisi}<br />
+&nbsp;<br />
+Bersama ini kami sampaikan bahwa Tiket Nomor. {no.tiket} dengan permasalahan :&nbsp;<br />
+&nbsp;<br />
+{Customer_Question}</p>
+
+<p>&nbsp;</p>
+
+<p>Saat ini ada dalam penugasanmu.</p>
+
+<p>Mohon kiranya dapat segera merespon dan menyelesaikan tiket tersebut sesuai dengan ketentuan.<br />
+&nbsp;<br />
+Demikian disampaikan, atas perhatian dan kerjasamanya, kami ucapkan terima kasih.<br />
+&nbsp;<br />
+Salam,<br />
+&nbsp;<br />
+&nbsp;<br />
+<strong>CUSTOMER CARE</strong></p>
+
+<p>DISTRICT 8, TOWER TREASURY, 21ST FLOOR, UNIT A,<br />
+LOT 28 SCBD, JL. JENDRAL SUDIRMAN KAV 52-53, Kel.<br />
+Senayan, Kec. Kebayoran Baru, Kota Adm. Jakarta Selatan, Prov.<br />
+DKI Jakarta</p>
+','SYSTEM','','YES','Update'
+---------------------------Success-------------------------------------------------------
+

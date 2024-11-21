@@ -1,0 +1,84 @@
+Time: 11/12/2023 04:14:30:079 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Pati','Uidesk12345!'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:116 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:135 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Pati','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:135 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Pati' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:136 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 130
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:700 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Pati', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:30:721 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Pati', 'Open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:31:461 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:14:31:761 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:13:474 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Pati', '2', 'layer2'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:13:491 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:14:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Pati', 'Open', '2',''
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:14:564 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:17:940 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 11/12/2023 04:15:18:551 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Pati','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

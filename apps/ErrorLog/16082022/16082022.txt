@@ -1,0 +1,80 @@
+Time: 16/08/2022 09:54:38:479 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmA2.aspx' OR UrlUser2='TrmA2.aspx' OR UrlUser3='TrmA2.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 10:54:36:353 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTipeProduk.aspx' OR UrlUser2='Tele_TrxTipeProduk.aspx' OR UrlUser3='Tele_TrxTipeProduk.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 11:33:47:836 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTipeProduk.aspx' OR UrlUser2='Tele_TrxTipeProduk.aspx' OR UrlUser3='Tele_TrxTipeProduk.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 01:21:17:821 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:49:206 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK90'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:49:794 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:50:458 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:51:688 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:53:076 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:53:745 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:13:54:597 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 02:39:11:993 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxUpload.aspx' OR UrlUser2='Tele_TrxUpload.aspx' OR UrlUser3='Tele_TrxUpload.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 08:45:10:866 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_TrxTransaksi.aspx' OR UrlUser2='Tele_TrxTransaksi.aspx' OR UrlUser3='Tele_TrxTransaksi.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 09:36:52:917 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '141','admin','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 09:36:53:432 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/08/2022 09:36:54:172 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK90'
+---------------------------Success-------------------------------------------------------
+

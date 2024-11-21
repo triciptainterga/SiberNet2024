@@ -1,0 +1,45 @@
+Time: 21/11/2022 12:25:49:588 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '100','admin','UIDESK77'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 12:25:52:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'admin','admin','UIDESK69'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 12:33:54:458 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'admin','admin','UIDESK69'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 01:03:52:930 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserAdd.aspx' OR UrlUser2='TrmUserAdd.aspx' OR UrlUser3='TrmUserAdd.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 03:00:14:470 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmUserManagement.aspx' OR UrlUser2='TrmUserManagement.aspx' OR UrlUser3='TrmUserManagement.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 05:18:30:902 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxAgentEmail.aspx' OR UrlUser2='TrxAgentEmail.aspx' OR UrlUser3='TrxAgentEmail.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 07:06:13:772 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK109'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 07:27:17:240 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmNomorWA.aspx' OR UrlUser2='TrmNomorWA.aspx' OR UrlUser3='TrmNomorWA.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 21/11/2022 07:59:43:168 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmAccountEmail.aspx' OR UrlUser2='TrmAccountEmail.aspx' OR UrlUser3='TrmAccountEmail.aspx')
+---------------------------Success-------------------------------------------------------
+

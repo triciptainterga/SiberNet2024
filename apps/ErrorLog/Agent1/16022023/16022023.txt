@@ -1,0 +1,1667 @@
+Time: 16/02/2023 09:48:10:451 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:10:466 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:10:545 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:10:546 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:10:546 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 09:48:11:440 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:12:021 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:12:589 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:12:851 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:48:13:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:49:37:884 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:49:38:416 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:49:38:910 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:51:07:499 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:51:08:068 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:51:08:611 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:23:708 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:24:100 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:24:609 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:504 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:514 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:563 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:563 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:564 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 09:56:35:815 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:36:172 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:36:348 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:36:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:56:36:929 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:330 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:343 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:392 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:393 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:393 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:560 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:52:996 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:53:159 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:53:562 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:57:53:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:32:899 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:32:905 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:32:954 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:32:955 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:32:955 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 09:59:33:132 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:33:523 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:33:665 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:34:070 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 09:59:34:217 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:15:488 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:15:495 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:15:547 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:15:548 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:15:550 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:00:26:051 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:26:480 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:26:868 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:26:995 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:27:509 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:41:775 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:41:958 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:42:196 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:42:318 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:42:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:00:42:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:01:414 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:01:662 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:02:197 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:02:324 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:02:699 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:30:984 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:31:227 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:31:751 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:31:870 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:32:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:48:197 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:48:469 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:48:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:48:971 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:49:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:52:596 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:53:672 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK90'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:55:458 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:56:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK90'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:02:57:928 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:27:508 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:27:762 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:27:918 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:28:264 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:28:430 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:58:913 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:58:921 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:58:979 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:58:979 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:58:980 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:05:59:151 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:59:375 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:59:488 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:05:59:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:00:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:07:923 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:08:192 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:08:279 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:08:663 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:08:791 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:15:042 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:16:938 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:17:970 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:50:974 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:51:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:51:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:51:745 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:06:51:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:22:010 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:22:720 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:24:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:27:676 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:27:887 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:28:057 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:28:543 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:29:046 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:32:521 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:32:803 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:32:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:33:247 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:33:405 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:51:594 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:52:182 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:07:53:136 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:02:649 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:03:472 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:04:211 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:04:887 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:15:200 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:15:499 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:15:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:15:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:16:104 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:17:929 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:08:45:603 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:09:21:538 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:09:21:850 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:09:21:966 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:09:22:307 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:09:22:479 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:03:174 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:04:157 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:04:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:08:426 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:08:653 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:08:781 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:08:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:09:318 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:11:861 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:12:145 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '89','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:12:234 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:12:609 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:12:741 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:15:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '89','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:15:972 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '89','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:16:959 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '89','085782432211','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:10:47:198 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:11:50:109 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:11:50:396 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '89','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:11:50:491 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:11:50:870 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:11:50:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:13:34:894 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '89','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:32:763 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:32:795 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:32:950 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:32:951 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:32:951 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:17:33:370 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:33:857 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:33:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:35:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:36:396 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:45:150 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:45:523 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:46:044 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:46:546 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:17:47:052 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:25:705 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:26:773 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:27:195 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:27:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:27:767 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:27:860 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:32:102 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:32:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:32:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:33:006 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:33:080 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:41:41:192 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:02:342 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:02:771 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:02:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:03:226 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:03:380 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:42:04:970 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:29:059 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:47:338 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:48:873 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:49:271 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:49:496 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:49:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:50:443 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:55:590 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:56:084 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:56:440 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:56:566 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:57:079 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:43:58:220 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:14:618 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:15:633 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:16:013 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:16:187 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:16:601 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:16:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:21:923 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:22:556 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:22:790 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:22:939 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:23:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:24:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:59:085 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:59:409 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:59:570 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:44:59:916 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:00:046 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:03:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:18:321 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:18:664 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:18:802 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:19:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:19:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:20:406 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:51:672 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:52:004 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:52:124 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:52:504 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:52:620 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:45:53:457 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:13:385 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:13:706 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:13:840 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:14:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:14:351 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:46:15:597 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:04:322 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:04:689 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:04:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:05:155 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:05:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:06:683 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:30:936 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:31:273 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:31:421 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:31:801 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:31:921 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:48:32:759 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:09:432 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:09:770 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:09:893 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:10:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:10:954 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:13:652 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:25:223 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:25:532 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:25:683 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:26:041 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:26:193 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:27:178 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:54:421 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:54:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:54:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:55:259 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:55:417 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:49:56:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:39:802 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:40:175 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:40:309 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:40:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:40:801 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:41:644 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:51:490 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:51:797 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:51:955 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:52:325 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:52:477 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:50:53:672 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:15:355 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:15:401 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:15:667 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:15:668 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:15:668 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 16/02/2023 10:51:16:840 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:17:232 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:17:736 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:18:327 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:18:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:23:951 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:24:398 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:24:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:25:452 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:25:975 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:31:392 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:51:58:479 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:19:185 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:19:993 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:20:663 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:21:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:22:855 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:23:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '79','085782432233','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:27:040 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:27:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '14','Agent1','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:29:122 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 16/02/2023 10:53:38:585 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '79','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+

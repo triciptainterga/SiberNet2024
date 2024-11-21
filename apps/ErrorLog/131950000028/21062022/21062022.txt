@@ -1,0 +1,64 @@
+Time: 21/06/2022 09:21:10:716 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000028','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:10:730 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:10:799 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000028','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:10:800 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000028' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:10:805 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 156
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\Application Migrasi\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 21/06/2022 09:21:11:080 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000028' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:11:881 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000028', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:12:516 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000028', 'open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:12:745 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000028','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:13:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000028','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 21/06/2022 09:21:18:731 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000028','Insert'
+---------------------------Success-------------------------------------------------------
+

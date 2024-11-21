@@ -1,0 +1,329 @@
+Time: 04/12/2023 01:24:13:059 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'AgentWhatsApp03','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:083 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:114 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','AgentWhatsApp03','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:114 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='AgentWhatsApp03' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:116 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:251 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:710 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'AgentWhatsApp03', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:13:730 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:14:230 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'AgentWhatsApp03', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:24:14:748 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:32:541 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:32:626 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','AgentWhatsApp03','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:32:627 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='AgentWhatsApp03' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:45:948 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:46:715 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'AgentWhatsApp03', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:46:941 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'AgentWhatsApp03', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:47:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:47:947 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:54:572 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:54:873 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'AgentWhatsApp03', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:56:344 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:56:419 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:56:966 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'AgentWhatsApp03', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:58:470 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:58:747 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:34:59:264 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:35:00:382 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:35:00:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:35:01:120 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:36:54:132 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:36:54:371 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:36:54:878 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:36:59:867 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:256 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','AgentWhatsApp03','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:271 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:287 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:303 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','AgentWhatsApp03','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:782 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:797 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:00:814 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:01:264 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:01:609 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','AgentWhatsApp03','UIDESK320'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:01:783 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:02:300 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','AgentWhatsApp03','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:02:804 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:03:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','AgentWhatsApp03','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:04:927 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'asih','UideskIndonesia','AgentWhatsApp03','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:06:299 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '211216141202','UideskIndonesia','AgentWhatsApp03','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:06:799 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '211216141202','UideskIndonesia','AgentWhatsApp03','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:07:608 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '211216141202','UideskIndonesia','AgentWhatsApp03','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:08:512 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '211216141202','UideskIndonesia','AgentWhatsApp03','UIDESK320'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:37:09:214 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '211216141202','UideskIndonesia','AgentWhatsApp03','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:08:231 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:08:502 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:09:019 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:09:505 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:09:734 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:10:240 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:24:299 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:24:585 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:38:25:084 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:39:17:766 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='AgentWhatsApp03' And Url='3_Channel_Sosmed.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:39:17:997 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:39:18:531 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','AgentWhatsApp03','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

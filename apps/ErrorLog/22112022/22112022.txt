@@ -1,0 +1,25 @@
+Time: 22/11/2022 01:26:49:257 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '69','admin','UIDESK41'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/11/2022 01:26:53:123 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '49','admin','UIDESK41'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/11/2022 01:29:47:909 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1048922013','admin','UIDESK112'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/11/2022 01:47:34:806 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmNotification.aspx' OR UrlUser2='TrmNotification.aspx' OR UrlUser3='TrmNotification.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 22/11/2022 03:38:55:701 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmNotification.aspx' OR UrlUser2='TrmNotification.aspx' OR UrlUser3='TrmNotification.aspx')
+---------------------------Success-------------------------------------------------------
+

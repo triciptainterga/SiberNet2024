@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="2020HelpdeskShopee" Class="R_Transaction_DBMLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=192.168.25.31;Initial Catalog=2020HelpdeskShopee;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DefaultConnection" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.R_Transaction" Method="R_Transaction">
+    <Parameter Name="XStartDate" Parameter="xStartDate" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="XEndDate" Parameter="xEndDate" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="R_TransactionResult">
+      <Column Name="No" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TicketNumber" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Channel_Code" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CategoryName" Type="System.String" DbType="VarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Level1" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Level2" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Level3" Type="System.String" DbType="VarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="TicketStatus" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ClosedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="StrPenyebab" Type="System.String" DbType="VarChar(250)" CanBeNull="true" />
+      <Column Name="SkalaPrioritas" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="JenisNasabah" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="NomorRekening" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="HP" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="CusStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Alamat" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TicketSourceName" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="GenesysID" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="ThreadID" Type="System.String" DbType="VarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="NIK" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="AccountInbound" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="AccountID" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="ClosedBy" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="CustomerName" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="SLA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserSolved" Type="System.String" DbType="VarChar(300)" CanBeNull="true" />
+      <Column Name="DateSolvedDisplay" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DateCreatedDisplay" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="DateClosedDisplay" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

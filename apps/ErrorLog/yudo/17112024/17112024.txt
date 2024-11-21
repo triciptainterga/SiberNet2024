@@ -1,0 +1,626 @@
+Time: 17/11/2024 06:53:21:222 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'yudo','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:21:246 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:21:310 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','yudo','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:21:318 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='yudo' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:21:415 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in E:\SiberNetNew\Sibenet\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in E:\SiberNetNew\Sibenet\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:53:48:573 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:52:992 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:53:066 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:53:53:075 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:53:435 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:53:942 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:54:049 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'yudo', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:54:456 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:53:54:554 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'yudo', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:18:143 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:18:650 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','Call-171120241018591001059','yudo','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:18:691 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:18:853 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','yudo','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:18:933 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:021 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:109 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call-171120241018591001059','UideskIndonesia','yudo','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:122 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:135 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:152 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:198 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:214 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:619 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'Call-171120241018591001059', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:19:658 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:20:159 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:20:675 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:21:195 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:54:53:448 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:089 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','Call-171120241018591001059','yudo','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:150 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:162 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:174 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:191 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call-171120241018591001059','UideskIndonesia','yudo','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:211 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'Call-171120241018591001059', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:246 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:262 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:277 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:350 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:351 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:598 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:39:659 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','yudo','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:40:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:40:612 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:57:41:121 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:41:056 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:145 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','Call-171120241018591001059','yudo','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:156 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:176 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:197 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:217 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call-171120241018591001059','UideskIndonesia','yudo','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'Call-171120241018591001059', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:338 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:353 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:388 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:389 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:42:687 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','yudo','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:43:182 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:43:690 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:44:203 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:58:44:718 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:28:316 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:451 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','Call-171120241018591001059','yudo','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:467 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:481 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:510 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:541 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call-171120241018591001059','UideskIndonesia','yudo','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:572 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'Call-171120241018591001059', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:615 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:646 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:664 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:705 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:706 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:29:961 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:30:039 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','yudo','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:30:459 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:30:972 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 06:59:31:486 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:56:491 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='yudo' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:259 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','Call-171120241018591001059','yudo','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:273 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:313 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:353 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call-171120241018591001059','UideskIndonesia','yudo','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:401 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote 'Call-171120241018591001059', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:448 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:481 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:498 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:547 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+Message: Invalid object name 'datakelola_v_agenthandles'.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in E:\SiberNetNew\Sibenet\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:548 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','yudo','UIDESK132'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:836 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:58:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'Call','UideskIndonesia','yudo','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:59:331 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:08:59:844 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 17/11/2024 07:09:00:356 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','yudo','UIDESK302'
+---------------------------Success-------------------------------------------------------
+

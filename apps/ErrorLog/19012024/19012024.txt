@@ -1,0 +1,30 @@
+Time: 19/01/2024 07:48:55:665 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 19/01/2024 07:48:55:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 19/01/2024 07:48:56:185 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.TrmMonitoring1.DataTableMonitoring(String TrxFlag) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\asmx\TrmMonitoring.asmx.vb:line 194
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 19/01/2024 07:48:56:187 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+---------------------------Success-------------------------------------------------------
+
+Time: 19/01/2024 07:48:56:244 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

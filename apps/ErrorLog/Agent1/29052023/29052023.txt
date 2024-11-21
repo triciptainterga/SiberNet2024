@@ -1,0 +1,289 @@
+Time: 29/05/2023 12:57:34:960 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:35:024 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:35:186 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:35:189 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:35:199 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 125
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/05/2023 12:57:36:764 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:43:519 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:44:509 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:45:365 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:57:45:528 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'Agent1', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:21:194 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:22:389 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Agent1','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:22:431 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:22:475 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:22:519 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Agent1','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:22:637 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:23:508 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:23:527 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:24:187 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:25:003 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:25:501 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:25:724 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'nurm','UideskIndonesia','Agent1','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:26:182 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'nurma','UideskIndonesia','Agent1','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:26:551 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Agent1','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:27:045 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Agent1','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:27:576 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '220308115055','UideskIndonesia','Agent1','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:33:251 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','Agent1','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:40:900 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','Agent1','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:42:877 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','Agent1','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:44:203 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','Agent1','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:45:275 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:58:45:545 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:15:673 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '21','UideskIndonesia','Agent1','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:15:832 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '220308115055','UideskIndonesia','Agent1','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:16:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00000','UideskIndonesia','Agent1','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:16:728 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00000','UideskIndonesia','Agent1','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:17:610 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '220308115055','20230529125917036','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<p>Musim untuk dilupakan Chelsea. The Blues mengakhiri Premier League 2022/2023 dengan jumlah poin terendahnya dalam sejarah kompetisi ini.<br />
+<br />
+Chelsea menghadapi Newcastle United di Stamford Bridge pada laga terakhir, Minggu (28/5) malam WIB. Chelsea bangkit dari ketinggalan sebelum memaksakan hasil seri 1-1.<br />
+<br />
+Baca artikel sepakbola, &quot;Chelsea di Titik Nadir&quot; selengkapnya <a href="https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir">https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','<p>Musim untuk dilupakan Chelsea. The Blues mengakhiri Premier League 2022/2023 dengan jumlah poin terendahnya dalam sejarah kompetisi ini.<br />
+<br />
+Chelsea menghadapi Newcastle United di Stamford Bridge pada laga terakhir, Minggu (28/5) malam WIB. Chelsea bangkit dari ketinggalan sebelum memaksakan hasil seri 1-1.<br />
+<br />
+Baca artikel sepakbola, &quot;Chelsea di Titik Nadir&quot; selengkapnya <a href="https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir">https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','1','Open','Agent1','202305291259170368934241','I%20DEWA%20GEDE%20ALIT%20ARDIKA','nurmansyahcs33@gmail.com','','','-','0','Medium','Corporations','CT3-00000','Email','2023-05-29','21','1','Agent1','1065','3','202305291259170368934241', '20230529125917036893424267', '-','0','-','Bringin Purna Jabatan'
+Message: An explicit value for the identity column in table 'TR_THREAD_ARCHIVE' can only be specified when a column list is used and IDENTITY_INSERT is ON.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 489
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 29/05/2023 12:59:17:618 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '220308115055','20230529125917036','Email','CAT-00001','CT1-00000','CT2-00000','CT3-00000','<p>Musim untuk dilupakan Chelsea. The Blues mengakhiri Premier League 2022/2023 dengan jumlah poin terendahnya dalam sejarah kompetisi ini.<br />
+<br />
+Chelsea menghadapi Newcastle United di Stamford Bridge pada laga terakhir, Minggu (28/5) malam WIB. Chelsea bangkit dari ketinggalan sebelum memaksakan hasil seri 1-1.<br />
+<br />
+Baca artikel sepakbola, &quot;Chelsea di Titik Nadir&quot; selengkapnya <a href="https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir">https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','<p>Musim untuk dilupakan Chelsea. The Blues mengakhiri Premier League 2022/2023 dengan jumlah poin terendahnya dalam sejarah kompetisi ini.<br />
+<br />
+Chelsea menghadapi Newcastle United di Stamford Bridge pada laga terakhir, Minggu (28/5) malam WIB. Chelsea bangkit dari ketinggalan sebelum memaksakan hasil seri 1-1.<br />
+<br />
+Baca artikel sepakbola, &quot;Chelsea di Titik Nadir&quot; selengkapnya <a href="https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir">https://sport.detik.com/sepakbola/liga-inggris/d-6743910/chelsea-di-titik-nadir</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','1','Open','Agent1','202305291259170368934241','I%20DEWA%20GEDE%20ALIT%20ARDIKA','nurmansyahcs33@gmail.com','','','-','0','Medium','Corporations','CT3-00000','Email','2023-05-29','21','1','Agent1','1065','3','202305291259170368934241', '20230529125917036893424267', '-','0','-','Bringin Purna Jabatan'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:17:687 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '220308115055','Agent1','null'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:18:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00000','UideskIndonesia','Agent1','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:18:581 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1065','UideskIndonesia','Agent1','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:19:036 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00001','UideskIndonesia','Agent1','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:20:578 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_PublishTransaction '220308115055','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:23:455 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:24:017 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', 'Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:24:439 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'Agent1','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:27:429 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/05/2023 12:59:27:948 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

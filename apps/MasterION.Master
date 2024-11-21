@@ -1,0 +1,90 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterION.master.vb" Inherits="ICC.MasterION" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="https://marsku-01.uniteus.id/crm_widget/embed/widget.css">
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-top: 100%; /* 1:1 Aspect Ratio */
+        }
+
+        .responsive-iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://marsku-01.uniteus.id/crm_widget/assets/js/jquery.min.js"></script>
+    <script src="https://marsku-01.uniteus.id/crm_widget/embed/widget.js?token=MTNjY2YyOTNlODM0ZDZlNDNjNjYwZjAwZjRkMjMwY2YxNjZjZjFiZjE2N2ZkZmMzMzA2ODU0OWJiY2M4NDNlNTEwMDc5NmFlNzJjZjJlNmU3YWJlMDY4ZjYxZmEzMGNmYjMzMzk4OGNlYmQwNzQ2YjI3NTU2YjQ1NTQ3MTY4ZTM0SEc3NldRWVFKTk44OFkwS3ZUKzY2SThrUG42eDlLK0ZQTVdvY0NsZjVsTGFVZWVvcWlIbmN0bGFGUzdEVzFJeXowNTF3Y3oxMUFmVjZEamxiaWRxQ0E2bXhjL1h3aFJpdm5mSk5iNEp0bm1NSWxSelFuV3orSXVVeUsxRWRsTExvZU1ld2h2eWw0QWMzN2YzUzZ5VyttMTlLallXRkZyMTJqUkpydGhyNXZlSzMrOWh4eEJ1a2t5OVNZZGxNTjl3ZldSTXBPU2swREEzTkxlU0NYaUh1MEhGL3BUdU8wVktmVzdZL04wYm1zY0g1cWtDUmtYd3hxMDh3MWJ5bHZORC85Nm5EdmlrTG5URE9NaG1pTHFrZz09"></script>
+    <script>
+        var myagent = new MyWebPhone({
+            userkey: 123,
+            position: 'right',
+            width: 270,
+            dial_manual: true
+        });
+        myagent.init();
+
+        myagent.on('CONNECTION_STATUS', function (e) {
+            console.log("CONNECTION_STATUS:");
+            console.log(e);
+        });
+
+        myagent.on('REGISTRATION_STATUS', function (e) {
+            console.log("REGISTRATION_STATUS:");
+            console.log(e);
+        });
+
+        myagent.on('CALL_LISTEN', function (e) {
+            console.log("CALL_LISTEN:");
+            console.log(e);
+        });
+        myagent.on('CALL_STATUS', function (e) {
+            console.log("CALL_STATUS:");
+            console.log(e.status);
+            if (e.status == "RING") {
+                document.getElementById('iframeCore').src = "https://crm.uidesk.id/roatexion";
+                //document.getElementById('iframeCore').src = "https://cloud.uidesk.id/outbound/apps/Tele_TrxTransaksi.aspx?id=50&name=DANU&ph=081317777376&mail=null&script=3";
+            }
+
+        });
+        myagent.on('DIAL_ESTABLISHED', function (e) {
+            console.log("DIAL_ESTABLISHED:");
+            console.log(e);
+        });
+
+        myagent.on('UNREGISTERED', function (e) {
+            console.log("UNREGISTERED:");
+            console.log(e);
+        });
+
+        myagent.on('AUTO-DIAL', function (e) {
+            console.log("AUTO-DIAL:");
+            console.log(e);
+        });
+
+    </script>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <iframe class="responsive-iframe" id="iframeCore" src="https://crm.uidesk.id/roatexion"></iframe>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

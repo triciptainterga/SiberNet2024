@@ -1,0 +1,20 @@
+Time: 30/03/2023 02:15:59:525 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/03/2023 02:15:59:601 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZVKDK1P3CQHA88BOXLAQ2RMOGBSXEIZ4RZM4IU3JRWC6AIXDL1' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 30/03/2023 02:16:11:916 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 30/03/2023 02:16:11:950 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='5J1JXFOWGIHW5MYQLSVLD3JLS1HAEQ0U0UHSW5SKIS2VW71Z3N' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,59 @@
+Time: 31/08/2023 01:02:25:302 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000003','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:25:345 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:25:460 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000003','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:25:504 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000003' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:25:506 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 31/08/2023 01:02:26:247 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000003' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:26:921 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', '131950000003'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:27:220 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:27:524 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread '131950000003','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 31/08/2023 01:02:27:731 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000003','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

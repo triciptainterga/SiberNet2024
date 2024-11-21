@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/audioplayer.css" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <style>
+        body {
+            min-height: 200vh;
+            background: linear-gradient(to top right, #060628, #1F245A, #682359);
+            /*height:400px;*/
+        }
+
+        #wrapper {
+            margin: 150px auto;
+            max-width: 400px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: #fff;
+            font-family: 'Open Sans';
+        }
+    </style>
+    <script>
+        function getParameterByName(name, url = window.location.href) {
+            name = name.replace(/[\[\]]/g, '\\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+        $(document).ready(function () {
+            var urlaudio = "http://wagent.uidesk.id/dev_briqm/apps/voice/sample_recording/" + getParameterByName("id") + ".wav"
+            var source = document.getElementById('SourceWAV');
+            source.setAttribute("src", urlaudio);
+        });
+    </script>
+</head>
+
+<body style="overflow: hidden;">
+    <!--<div id="jquery-script-menu">
+        <div class="jquery-script-center">
+            <div class="jquery-script-ads">
+                <script type="text/javascript">
+               google_ad_client = "ca-pub-2783044520727903";
+                    google_ad_slot = "2780937993";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                </script>
+                <script type="text/javascript"
+                        src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+            </div>
+            <div class="jquery-script-clear"></div>
+        </div>
+    </div>-->
+    <div id="wrapper">
+        <!--<h1>jQuery AudioPlayer.js</h1>-->
+        <audio preload="auto" controls>
+            <!--<source src="http://localhost/2022briqm/apps/voice/sample_recording/2022021411080365004838329434002701_lebih4menit.wav">-->
+            <source id="SourceWAV">
+        </audio>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="js/audioplayer.js"></script>
+        <script>
+            $(function () {
+                $('audio').audioPlayer();
+            });
+        </script>
+    </div>
+</body>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+</html>

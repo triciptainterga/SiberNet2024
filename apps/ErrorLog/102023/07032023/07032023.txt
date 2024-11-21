@@ -1,0 +1,118 @@
+Time: 07/03/2023 10:07:04:215 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '102023','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:04:248 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:04:324 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','102023','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:04:326 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='102023' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:04:334 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2023 10:07:17:367 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:17:776 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', '102023', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:18:489 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall '102023'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:19:776 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:07:20:273 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:082 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '102023','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:102 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:133 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','102023','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:133 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='102023' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:134 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 125
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2023 10:11:13:858 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTaskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:14:143 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall '102023'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:14:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:14:658 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', '102023', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2023 10:11:14:812 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,170 @@
+{
+  "object": "welcomecall",
+  "IdTrx": "32e1a3e1-dae3-46bb-97c1-94b06c7f56f7",
+  "TotalTrx": "3",
+  "Tanggal": "2021-11-29 10:00:00",
+  "DataPolis": [
+    {
+        "Nama": "Nama pemegang Polis 1",
+        "NomorPolis": "60000000",
+        "NamaProduct": "NamaProduct-01",
+        "PhoneNumber": "085782431208",
+        "Email": "NamapemegangPolis1@gmail.com",
+        "Flaging": "1",
+        "Detail": [
+            {
+                "Ahliwaris": [
+                    {
+                        "call_polis_number": "60000000",
+                        "call_nama_ahli_waris": "Ahli Waris Test-1"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_nama_ahli_waris": "Ahli Waris Test-2"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_nama_ahli_waris": "Ahli Waris Test-3"
+                    }
+                ],
+                "Rider": [
+                    {
+                        "call_polis_number": "60000000",
+                        "call_manfaat": "CR01"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_manfaat": "CR02"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_manfaat": "CR03"
+                    }
+                ],
+                "Fund": [
+                    {
+                        "call_polis_number": "60000000",
+                        "call_jenis_investasi": "Investasi 1"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_jenis_investasi": "Investasi 2"
+                    },
+                    {
+                        "call_polis_number": "60000000",
+                        "call_jenis_investasi": "Investasi 3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Nama": "Nama pemegang Polis 2",
+        "NomorPolis": "60000001",
+        "NamaProduct": "NamaProduct-02",
+        "PhoneNumber": "085782431288",
+        "Email": "NamapemegangPolis2@gmail.com",
+        "Flaging": "1",
+        "Detail": [
+            {
+                "Ahliwaris": [
+                    {
+                        "call_polis_number": "60000001",
+                        "call_nama_ahli_waris": "Ahli Waris Test-1"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_nama_ahli_waris": "Ahli Waris Test-2"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_nama_ahli_waris": "Ahli Waris Test-3"
+                    }
+                ],
+                "Rider": [
+                    {
+                        "call_polis_number": "60000001",
+                        "call_manfaat": "CR01"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_manfaat": "CR02"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_manfaat": "CR03"
+                    }
+                ],
+                "Fund": [
+                    {
+                        "call_polis_number": "60000001",
+                        "call_jenis_investasi": "Investasi 1"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_jenis_investasi": "Investasi 2"
+                    },
+                    {
+                        "call_polis_number": "60000001",
+                        "call_jenis_investasi": "Investasi 3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Nama": "Nama pemegang Polis 3",
+        "NomorPolis": "60000002",
+        "NamaProduct": "NamaProduct-03",
+        "PhoneNumber": "085782431277",
+        "Email": "NamapemegangPolis3@gmail.com",
+        "Flaging": "1",
+        "Detail": [
+            {
+                "Ahliwaris": [
+                    {
+                        "call_polis_number": "60000002",
+                        "call_nama_ahli_waris": "Ahli Waris Test-1"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_nama_ahli_waris": "Ahli Waris Test-2"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_nama_ahli_waris": "Ahli Waris Test-3"
+                    }
+                ],
+                "Rider": [
+                    {
+                        "call_polis_number": "60000002",
+                        "call_manfaat": "CR01"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_manfaat": "CR02"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_manfaat": "CR03"
+                    }
+                ],
+                "Fund": [
+                    {
+                        "call_polis_number": "60000002",
+                        "call_jenis_investasi": "Investasi 1"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_jenis_investasi": "Investasi 2"
+                    },
+                    {
+                        "call_polis_number": "60000002",
+                        "call_jenis_investasi": "Investasi 3"
+                    }
+                ]
+            }
+        ]
+    }
+  ]
+}

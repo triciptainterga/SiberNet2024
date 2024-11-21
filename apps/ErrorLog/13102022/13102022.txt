@@ -1,0 +1,152 @@
+Time: 13/10/2022 02:17:34:725 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:25:43:331 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+Message: Violation of UNIQUE KEY constraint 'UQ__Assets_B__66C08E2D39468A73'. Cannot insert duplicate key in object 'dbo.Assets_Bill'. The duplicate key value is (Agent1, Agent2).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceGetDataMaster.VUE_InsertTransaction(String Data_1, String Data_2, String Data_3) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5579
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/10/2022 02:25:43:337 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:28:17:915 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+Message: Violation of UNIQUE KEY constraint 'UQ__Assets_B__66C08E2D39468A73'. Cannot insert duplicate key in object 'dbo.Assets_Bill'. The duplicate key value is (Agent1, Agent2).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceGetDataMaster.VUE_InsertTransaction(String Data_1, String Data_2, String Data_3) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5579
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/10/2022 02:28:17:915 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:29:17:236 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+Message: Violation of UNIQUE KEY constraint 'UQ__Assets_B__66C08E2D39468A73'. Cannot insert duplicate key in object 'dbo.Assets_Bill'. The duplicate key value is (Agent1, Agent2).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceGetDataMaster.VUE_InsertTransaction(String Data_1, String Data_2, String Data_3) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5579
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/10/2022 02:29:17:236 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent1','Agent2','Agent3'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:29:58:145 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent11','Agent12','Agent13'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:31:08:244 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent11','Agent12','Agent13'
+Message: Violation of UNIQUE KEY constraint 'UQ__Assets_B__66C08E2D39468A73'. Cannot insert duplicate key in object 'dbo.Assets_Bill'. The duplicate key value is (Agent11, Agent12).
+The statement has been terminated.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceGetDataMaster.VUE_InsertTransaction(String Data_1, String Data_2, String Data_3) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5579
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 13/10/2022 02:31:08:244 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'Agent11','Agent12','Agent13'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:35:19:476 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'INTAN','20','BOGOR'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:39:19:474 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'A1','A2','A3','Pria'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:41:16:443 PM
+---------------------------Success-------------------------------------------------------
+Message: exec VUE_UIDESK_InsertTransaction 'B1','B2','B3','Wanita'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:45:17:669 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:45:19:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:45:21:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'Open', '1','a'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 02:52:13:471 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 03:24:02:511 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 03:24:02:786 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+
+Time: 13/10/2022 03:29:04:167 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', '0'
+---------------------------Success-------------------------------------------------------
+

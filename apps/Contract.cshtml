@@ -1,0 +1,69 @@
+﻿@{
+    // Data yang ingin ditampilkan dalam surat kontrak
+    var customerName = "John Doe";
+    var customerAddress = "Jl. Merdeka No. 12, Jakarta";
+    var internetPackage = "100 Mbps - Paket Hemat";
+    var price = 350000;
+    var contractDate = DateTime.Now;
+    var startDate = DateTime.Now.AddDays(7); // Kontrak mulai 7 hari setelah
+    var endDate = DateTime.Now.AddYears(1); // Kontrak berakhir 1 tahun setelah
+}
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat Kontrak Pemasangan Internet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .contract-content {
+            margin-top: 20px;
+        }
+
+            .contract-content p {
+                text-align: justify;
+            }
+
+        .contract-details {
+            margin-top: 30px;
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+
+            .contract-details p {
+                margin: 5px 0;
+            }
+    </style>
+</head>
+<body>
+    <h1>Surat Kontrak Pemasangan Internet</h1>
+    <h2>Perjanjian Penyediaan Layanan Internet</h2>
+
+    <div class="contract-content">
+        <p>Yang bertanda tangan di bawah ini:</p>
+
+        <div class="contract-details">
+            <p><strong>Nama Pelanggan:</strong> @customerName</p>
+            <p><strong>Alamat:</strong> @customerAddress</p>
+            <p><strong>Paket Internet:</strong> @internetPackage</p>
+            <p><strong>Harga:</strong> Rp @price.ToString("N0")</p>
+            <p><strong>Tanggal Kontrak:</strong> @contractDate.ToString("dd MMMM yyyy")</p>
+            <p><strong>Tanggal Mulai:</strong> @startDate.ToString("dd MMMM yyyy")</p>
+            <p><strong>Tanggal Berakhir:</strong> @endDate.ToString("dd MMMM yyyy")</p>
+        </div>
+
+        <p>Dengan ini, pelanggan setuju untuk memasang layanan internet dengan detail sebagai berikut:</p>
+
+        <div class="contract-details">
+            <p><strong>1. Layanan yang diberikan:</strong> Penyediaan koneksi internet sesuai dengan paket yang dipilih.</p>
+            <p><strong>2. Pembayaran:</strong> Pembayaran dila

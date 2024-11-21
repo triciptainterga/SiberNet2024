@@ -1,0 +1,116 @@
+<!--
+  For more information on how to configure your ASP.NET application, please visit
+  http://go.microsoft.com/fwlink/?LinkId=169433
+  -->
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    <sectionGroup name="devExpress">
+      <section name="themes" type="DevExpress.Web.ASPxClasses.ThemesConfigurationSection, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+      <section name="compression" type="DevExpress.Web.ASPxClasses.CompressionConfigurationSection, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+      <section name="settings" type="DevExpress.Web.ASPxClasses.SettingsConfigurationSection, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+      <section name="errors" type="DevExpress.Web.ASPxClasses.ErrorsConfigurationSection, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <connectionStrings>
+    <!--<add name="DefaultConnection" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.25.70;Initial Catalog=ICC_081216;User ID=sa;Password=Sa212" />
+    <add name="SosmedConnection" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.25.70;Initial Catalog=dbSosmed;User ID=sa;Password=Sa212" />-->
+
+    <add name="DefaultConnection" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.25.70;Initial Catalog=DBJneChat;User ID=sa;Password=Sa212" />
+    <add name="SosmedConnection" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.25.70;Initial Catalog=dbSosmed;User ID=sa;Password=Sa212" />
+    
+    <add name="dbKM" connectionString="Server=192.168.25.203;Database=permatakm_Mig;User ID=sa;Password=sa212" />
+    <add name="Restu" connectionString="Data Source=192.168.25.70;Initial Catalog=2017-prod-ICC;User ID=sa;Password=Sa212" providerName="System.Data.SqlClient" />
+    
+    <add name="umar" providerName="System.Data.SqlClient" connectionString="Data Source=192.168.25.203;Initial Catalog=ICC_081216;User ID=sa;Password=sa212" />
+  </connectionStrings>
+  <appSettings>
+    <add key="EmailFrom" value="support@invision-ap.com" />
+    <add key="PhoneSender" value="08119970472" />
+    <add key="SMTPPass" value="invision789" />
+    <add key="EmailAccount" value="support@invision-ap.com" />
+    <add key="Host" value="smtps.cbn.net.id" />
+    <add key="Port" value="587" />
+    <add key="filePath" value="Upload/" />
+    <!--<add key="getLinkAgent" value="http://127.0.0.1:84/HTML/"/>
+    <add key="getLinkCust" value="http://127.0.0.1/landing/"/>-->
+    <add key="getLinkCust" value="http://36.68.225.61:6003/iceplayprod/"/>
+    <add key="getLinkAgent" value="http://36.68.225.61:6003/iceagentprod/HTML/"/>
+    <!--<add key="FileFullPath" value="E:\HELPDESK\Application\Helpdesk_Application\Upload\" />-->
+    <!--<add key="getLinkAgent" value="http://36.68.225.61:7009/"/>-->
+    <!--<add key="getLinkCust" value="http://36.68.225.61:7010/"/>-->
+    <add key="FileFullPath" value="~\HTML\Upload\" />
+    <add key="Logsys" value="~/log/" />
+    <add key="InFileFAX" value="~/Tiff/" />
+    <add key="PrefixFAX" value="0" />
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None" />
+    <add key="LDAP" value="192.168.25.72" />
+    <add key="survey" value="http://36.68.225.61:6003/dashboardicc/survey.aspx"/>
+    <add key="corporatePath" value="http://36.68.225.61:6003/iceagentprod/" />
+    <add key="karyawanPath" value="http://36.68.225.61:6003/iceagentprod/" />
+    <add key="InteractionChatPath" value="http://36.68.225.61:6003/iceplayprod/uploads/" />
+  </appSettings>
+  <system.web>
+    <!--<customErrors mode="On" defaultRedirect="login.aspx?handler=customErrors%20section%20-%20Web.config">
+      <error statusCode="404" redirect="login.aspx?msg=404&amp;handler=customErrors%20section%20-%20Web.config"/>
+    </customErrors>-->
+    <pages validateRequest="false" enableEventValidation="false" viewStateEncryptionMode="Never"></pages>
+    <compilation debug="true" strict="false" explicit="true" targetFramework="4.5">
+      <assemblies>
+        <add assembly="DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Data.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Printing.v13.2.Core, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+        <add assembly="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+        <add assembly="DevExpress.RichEdit.v13.2.Core, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+        <add assembly="DevExpress.Web.ASPxHtmlEditor.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxSpellChecker.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Office.v13.2.Core, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.SpellChecker.v13.2.Core, Version=13.2.6.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxThemes.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+      </assemblies>
+    </compilation>
+    <httpRuntime targetFramework="4.5" />
+    <httpModules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </httpModules>
+    <httpHandlers>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET" path="DX.ashx" validate="false" />
+    </httpHandlers>
+  </system.web>
+  <system.webServer>
+    <modules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </modules>
+    <validation validateIntegratedModeConfiguration="false" />
+    <handlers>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET" path="DX.ashx" name="ASPxHttpHandlerModule" preCondition="integratedMode" />
+      <add type="DevExpress.Web.ASPxUploadControl.ASPxUploadProgressHttpHandler, DevExpress.Web.v13.2, Version=13.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" verb="GET,POST" path="ASPxUploadProgressHandlerPage.ashx" name="ASPxUploadProgressHandler" preCondition="integratedMode" />
+    </handlers>
+    <defaultDocument>
+      <files>
+        <add value="Login.aspx" />
+      </files>
+    </defaultDocument>
+  </system.webServer>
+  <devExpress>
+    <themes enableThemesAssembly="true" styleSheetTheme="" theme="" customThemeAssemblies="" />
+    <compression enableHtmlCompression="false" enableCallbackCompression="true" enableResourceCompression="true" enableResourceMerging="true" />
+    <settings doctypeMode="Xhtml" rightToLeft="false" />
+    <errors callbackErrorRedirectUrl="" />
+  </devExpress>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="MainTrxSoap" />
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://192.168.25.69:6003/WsFirebase/maintrx.asmx"
+        binding="basicHttpBinding" bindingConfiguration="MainTrxSoap"
+        contract="ServiceReference1.MainTrxSoap" name="MainTrxSoap" />
+    </client>
+  </system.serviceModel>
+</configuration>

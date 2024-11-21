@@ -1,0 +1,212 @@
+Time: 04/12/2023 10:10:05:226 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'Open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:10:05:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:10:05:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:48:27:884 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmCustomer.aspx' OR UrlUser2='TrmCustomer.aspx' OR UrlUser3='TrmCustomer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:48:28:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UIDESK0001','','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:48:28:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxCustomer '0','','0','Table'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:48:28:931 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 10:48:29:445 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:03:682 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxAgentSM.aspx' OR UrlUser2='TrxAgentSM.aspx' OR UrlUser3='TrxAgentSM.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:04:217 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:04:732 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK32'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:05:422 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','','UIDESK52'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:05:745 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK25'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:06:260 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:22:06:765 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 01:32:30:701 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLogoutActivity' expects parameter '@TrxLoginUserName', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLogoutActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 254
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 04/12/2023 01:32:30:712 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 06:34:32:713 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrmCustomer.aspx' OR UrlUser2='TrmCustomer.aspx' OR UrlUser3='TrmCustomer.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:30:928 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='1_doticket.aspx' OR UrlUser2='1_doticket.aspx' OR UrlUser3='1_doticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:336 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:366 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:382 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:408 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:437 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:804 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:819 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:31:848 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:32:339 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:32:855 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:33:840 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 07:08:33:869 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 08:37:32:701 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231204191123','UideskIndonesia','admin','UIDESK330'
+Message: Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.
+StackTrace:    at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ICC.WebServiceGetDataMaster.UIDESK_TrxTransactionTicket(String TrxID, String TrxSearching, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5396
+Source: System.Data
+TargetSite: Boolean TryGetConnection(System.Data.Common.DbConnection, System.Threading.Tasks.TaskCompletionSource`1[System.Data.ProviderBase.DbConnectionInternal], System.Data.Common.DbConnectionOptions, System.Data.ProviderBase.DbConnectionInternal, System.Data.ProviderBase.DbConnectionInternal ByRef)
+---------------------------Failed-------------------------------------------------------
+
+Time: 04/12/2023 08:37:32:716 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231204191123','UideskIndonesia','admin','UIDESK330'
+---------------------------Success-------------------------------------------------------
+
+Time: 04/12/2023 08:37:45:809 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231204191123','UideskIndonesia','admin','UIDESK321'
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ICC.WebServiceGetDataMaster.UIDESK_TrxTransactionTicket(String TrxID, String TrxSearching, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5396
+Source: .Net SqlClient Data Provider
+TargetSite: Void .ctor(System.Data.ProviderBase.DbConnectionPoolIdentity, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SqlCredential, System.Object, System.String, System.Security.SecureString, Boolean, System.Data.SqlClient.SqlConnectionString, System.Data.SqlClient.SessionData, System.Data.ProviderBase.DbConnectionPool, System.String, Boolean, System.Data.SqlClient.SqlAuthenticationProviderManager)
+---------------------------Failed-------------------------------------------------------
+
+Time: 04/12/2023 08:37:45:810 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231204191123','UideskIndonesia','admin','UIDESK321'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,20 @@
+Time: 14/02/2023 07:18:14:676 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 14/02/2023 07:18:29:125 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Tele_FrameDashboard.aspx' OR UrlUser2='Tele_FrameDashboard.aspx' OR UrlUser3='Tele_FrameDashboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/02/2023 07:45:35:742 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/02/2023 07:47:13:647 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

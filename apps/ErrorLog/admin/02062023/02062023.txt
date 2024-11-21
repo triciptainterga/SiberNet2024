@@ -1,0 +1,198 @@
+Time: 02/06/2023 05:52:29:554 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:29:576 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:29:636 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:29:638 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:29:639 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/06/2023 05:52:33:673 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:34:170 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:48:371 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:48:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:52:59:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK108'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:00:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:00:516 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:01:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:01:530 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:02:047 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:02:688 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:09:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2533','admin','UIDESK113'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:32:825 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','102023','ANDRIAN MAULANA','Andrian@gmail.com','Uidesk123!','Layer 1','','3','<p>Layer 1</p>
+','Y','admin','1','1','1','1','0','0','0','Update'
+Message: Procedure or function 'UIDESK_TrxUser' expects parameter '@TrxSite', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ICC.WebServiceGetDataMaster.UpdateTransactionUserApplication(String TrxID, String TrxUserName, String TrxName, String TrxEmail, String TrxPassword, String TrxLevelUser, String TrxDepartment, String TrxGroupAgent, String TrxDescription, String TrxStatus, String TrxUserCreate, String TrxChannelEmail, String TrxChannelWA, String TrxChannelInbound, String TrxChannelOutbound, String TrxChannelInstagram, String TrxChannelFacebook, String TrxChannelTwitter) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 3147
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/06/2023 05:53:32:836 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','102023','ANDRIAN MAULANA','Andrian@gmail.com','Uidesk123!','Layer 1','','3','<p>Layer 1</p>
+','Y','admin','1','1','1','1','0','0','0','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:32:837 AM
+---------------------------Success-------------------------------------------------------
+Message: 
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:38:235 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK01'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:38:279 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK07'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:38:338 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:38:742 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK108'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:38:852 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:39:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK05'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:53:39:779 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK06'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:54:30:794 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2533','admin','UIDESK113'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:54:37:834 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','102023','ANDRIAN MAULANA','Andrian@gmail.com','Uidesk123!','Layer 1','','3','<p>Layer 1</p>
+','Y','admin','1','1','1','1','0','0','0','Update'
+Message: Procedure or function 'UIDESK_TrxUser' expects parameter '@TrxSite', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ICC.WebServiceGetDataMaster.UpdateTransactionUserApplication(String TrxID, String TrxUserName, String TrxName, String TrxEmail, String TrxPassword, String TrxLevelUser, String TrxDepartment, String TrxGroupAgent, String TrxDescription, String TrxStatus, String TrxUserCreate, String TrxChannelEmail, String TrxChannelWA, String TrxChannelInbound, String TrxChannelOutbound, String TrxChannelInstagram, String TrxChannelFacebook, String TrxChannelTwitter) in D:\V2_UIDESK\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 3147
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 02/06/2023 05:54:37:836 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUser '2533','102023','ANDRIAN MAULANA','Andrian@gmail.com','Uidesk123!','Layer 1','','3','<p>Layer 1</p>
+','Y','admin','1','1','1','1','0','0','0','Update'
+---------------------------Success-------------------------------------------------------
+
+Time: 02/06/2023 05:54:37:837 AM
+---------------------------Success-------------------------------------------------------
+Message: 
+---------------------------Success-------------------------------------------------------
+

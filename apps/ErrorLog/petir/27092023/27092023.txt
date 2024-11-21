@@ -1,0 +1,117 @@
+Time: 27/09/2023 09:22:59:382 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'petir','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:22:59:385 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:22:59:394 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','petir','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:22:59:395 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='petir' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:22:59:397 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2023 09:22:59:711 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 2' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:26:48:355 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'petir','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:26:48:381 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:26:48:383 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','petir','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:26:48:384 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='petir' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:26:48:386 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2023 09:27:03:641 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 2' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:154 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'petir','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:193 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:199 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','petir','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:199 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='petir' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:200 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 128
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 27/09/2023 09:33:28:215 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='Layer 2' And (UrlUser1='Tele_TrxTaskboard.aspx' OR UrlUser2='Tele_TrxTaskboard.aspx' OR UrlUser3='Tele_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,250 @@
+Time: 23/01/2024 10:40:09:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 10:40:09:509 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='XK4VRNFWOSPH3VR60W0AJJ2F1LWGHX0YZRZGSU4IEK0Q8OPBSX' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:16:04:018 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:16:04:051 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:16:04:138 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:16:04:215 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='XCBRGPRPR0IUD6UJWVZSU06D52Q5CQJ2SYKB54IBJ6RJILJOOH' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:16:46:213 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','231128215128'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:18:54:987 AM
+---------------------------Success-------------------------------------------------------
+Message: exec ValidasiDataCustomer 'TxtSearch','231128215128'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:48:00:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:48:00:321 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='52O3K4EQF7ABICGMG27RFTWQD3VGYE7HKEGDZ2KYXECWJS4H0I' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:49:39:046 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:49:39:061 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:49:39:081 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:49:39:140 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='1D2TSQS53838XS1SYG38M0NBIBZ53LF88OIOUCBQIQBVRL2HCF' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:54:08:024 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:54:08:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:54:08:038 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:54:08:045 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='W6ZX75YO2YZRY0LKS4R5K11XGBDLFGVBOI4KVH02NAVNHCNUDR' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:57:52:801 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:57:52:809 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:57:52:816 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:57:52:826 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='637UNSMT870JVIYZJ6OGC258AN6OUZ04IWU41H6F3TLS3HX81X' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:58:41:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:58:41:757 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:58:41:767 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 11:58:41:775 AM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='Z4HQOLRAO1XMD2ESSNVOVBM3103YLKQY37JP2KONVEGMFB45J5' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:03:54:234 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:03:54:253 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:03:54:273 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:03:54:293 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='WG7NYNIN4R7VTULKZGD7W0PPTPOG5GSLURVT7XV3VCBDNBART2' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:19:53:052 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:19:53:074 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:19:53:095 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:19:53:115 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='LJGT7EIFOOXUE45T62GINXSYAVGABOBF3JXH6NY05BEVTFDZGA' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:24:17:485 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:24:17:588 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:24:17:596 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 12:24:17:604 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='2RSH6CIXQC5T6OPL5WK6WHLXRSAKMATJVQODL33XRP6RQOWMF2' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:37:24:014 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:37:24:044 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:37:24:377 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:37:24:397 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='JY0V8N3JTNM3GLZZD6F7VUKTESWZKFQKN1TRL5QPQ0GGI7EHC5' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:48:38:760 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:48:38:991 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:48:39:003 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 01:48:39:021 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='PISTTYDE6CHL3SIF27RBN3KAH4U0Q48EJCGOQBJUMXWP2X72YX' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 02:05:40:981 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 02:05:40:988 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 02:05:41:006 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 23/01/2024 02:05:41:067 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='DCIH8IBUNY2R2ORR1JPPC7PRC5MDFNW58I03Q3ZLVWUB8XFMX0' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

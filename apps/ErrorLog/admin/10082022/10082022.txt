@@ -1,0 +1,2224 @@
+Time: 10/08/2022 06:01:10:274 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:03:31:644 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:03:36:781 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:03:37:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:03:38:984 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:03:39:495 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:26:486 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:33:378 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:33:763 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:35:917 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:36:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:52:699 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:09:53:177 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:09:595 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:13:218 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:13:759 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:16:843 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:17:332 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:34:113 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:15:34:612 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:20:43:652 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:20:51:798 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:20:52:589 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:20:55:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:20:56:148 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:21:09:442 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:21:09:952 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:50:52:833 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:50:55:022 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:50:55:180 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:50:55:474 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:50:55:685 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:03:069 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:03:234 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:03:366 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:03:877 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:26:296 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:26:648 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 06:51:27:152 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:33:34:750 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:33:52:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:33:52:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:33:54:045 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:33:54:508 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:08:601 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:08:646 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:08:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:09:212 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:23:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:26:406 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:34:26:918 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:35:54:729 AM
+---------------------------Success-------------------------------------------------------
+Message: exec TELE_TransaksiTask '64','FERDY SAMBO TERSANGKA','<p><br />
+<br />
+Fahmi Alamsyah, Penasihat Ahli Kapolri bidang Komunikasi Publik, mengajukan pengunduran diri dari jabatannya. Fahmi mundur karena namanya terseret dalam kasus kematian Brigadir Yoshua Hutabarat atau Brigadir J.<br />
+<br />
+Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','<p><br />
+<br />
+Fahmi Alamsyah, Penasihat Ahli Kapolri bidang Komunikasi Publik, mengajukan pengunduran diri dari jabatannya. Fahmi mundur karena namanya terseret dalam kasus kematian Brigadir Yoshua Hutabarat atau Brigadir J.<br />
+<br />
+Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','Premium','1','1','1','2022-08-10','admin','INSERT'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:36:57:115 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:36:57:284 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:36:57:795 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:39:20:513 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:39:22:777 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:39:22:855 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:39:24:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:39:25:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:27:703 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:27:762 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:27:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:28:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:33:302 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:33:393 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:33:783 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:33:914 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:38:447 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:39:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:40:39:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:41:24:783 AM
+---------------------------Success-------------------------------------------------------
+Message: exec TELE_TransaksiTask '64','FREDY SAMBO TRS','<p>Fahmi Alamsyah, Penasihat Ahli Kapolri bidang Komunikasi Publik, mengajukan pengunduran diri dari jabatannya. Fahmi mundur karena namanya terseret dalam kasus kematian Brigadir Yoshua Hutabarat atau Brigadir J.<br />
+<br />
+Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','<p>Fahmi Alamsyah, Penasihat Ahli Kapolri bidang Komunikasi Publik, mengajukan pengunduran diri dari jabatannya. Fahmi mundur karena namanya terseret dalam kasus kematian Brigadir Yoshua Hutabarat atau Brigadir J.<br />
+<br />
+Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','Premium','1','1','1','2022-08-10','admin','INSERT'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:42:57:717 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:42:57:846 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:42:58:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:43:22:879 AM
+---------------------------Success-------------------------------------------------------
+Message: exec TELE_TransaksiTask '64','FREDY SAMBO','<p>Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','<p>Fahmi diduga terlibat dalam skenario yang dibuat Irjen Ferdy Sambo terkait pembunuhan Brigadir J. Dugaan keterlibatan itu awalnya ditanyakan kepada Kapolri Jenderal Listyo Sigit Prabowo saat konferensi pers penetapan Irjen Ferdy Sambo sebagai tersangka, pada Selasa (9/8) kemarin.<br />
+<br />
+Baca artikel detiknews, &quot;Kasus Sambo Bikin Fahmi Alamsyah Mundur dari Penasihat Kapolri&quot; selengkapnya <a href="https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri">https://news.detik.com/berita/d-6226066/kasus-sambo-bikin-fahmi-alamsyah-mundur-dari-penasihat-kapolri</a>.<br />
+<br />
+Download Apps Detikcom Sekarang https://apps.detik.com/detik/</p>
+','Premium','Waiting','Normal','The Day Of','2022-08-10','admin','INSERT'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:04:956 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:05:084 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:05:587 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:55:043 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:56:067 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:45:56:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:50:11:716 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:50:11:854 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 07:50:12:379 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:10:21:613 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:10:32:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:10:33:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:10:34:866 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:10:35:297 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:06:643 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:07:063 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:09:642 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:10:096 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:36:027 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:36:137 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:36:655 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:53:134 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:53:283 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:11:53:810 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:05:038 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:06:890 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:07:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:08:877 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:09:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:16:121 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:16:233 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:16:633 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:16:740 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:20:379 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:20:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:21:006 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:25:201 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:37:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:38:000 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:38:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:12:40:164 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:13:19:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:13:19:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:13:19:880 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:13:21:294 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:41:547 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:41:674 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:42:181 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:43:607 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:57:938 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:58:055 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:58:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:14:59:005 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:15:18:306 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:15:18:425 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:15:18:926 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 08:15:19:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:07:556 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:08:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:08:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:08:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:08:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:15:089 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:15:180 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:15:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:15:687 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:17:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:17:916 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:18:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:20:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:33:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:05:38:198 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:07:13:966 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:07:15:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:07:16:260 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:08:14:641 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:08:14:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:08:15:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:08:15:855 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:08:26:943 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:18:27:597 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:19:02:422 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:20:20:389 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:20:20:545 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:20:21:057 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:05:768 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:05:878 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:06:379 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:32:979 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:33:611 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:33:724 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:34:168 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:34:226 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:39:188 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:39:282 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:39:700 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:39:789 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:42:539 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:42:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:21:43:157 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:22:46:673 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:22:46:793 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:22:47:299 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:23:54:660 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:23:54:794 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:23:55:292 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:30:754 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:30:855 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:31:358 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:43:982 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:44:102 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:44:615 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:55:710 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:55:829 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:24:56:334 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:25:38:595 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:25:38:706 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:25:39:225 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:36:703 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:36:713 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK20'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:36:817 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:38:006 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK21'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:38:257 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:38:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:38:757 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK71'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:43:149 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK22'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:26:45:139 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK21'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:28:58:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:28:58:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:28:58:638 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:29:17:265 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:29:18:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:29:19:415 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:30:56:263 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:30:59:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:30:59:826 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:25:519 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:25:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:26:132 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:56:054 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:56:169 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:31:56:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:33:04:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:33:04:134 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:33:04:643 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:25:397 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:26:122 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:26:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:26:766 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:27:289 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:32:423 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:32:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:32:940 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:33:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:35:405 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:35:527 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:39:36:041 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:06:863 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:07:008 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:07:509 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:24:151 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:24:782 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:24:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:25:344 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:25:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:30:289 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:30:383 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:30:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:30:888 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:33:382 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:33:502 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:40:34:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:41:18:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:41:18:869 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:41:19:372 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:14:034 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:15:197 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:25:566 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:25:687 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:26:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:27:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:34:333 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:35:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:42:38:002 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:04:386 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:35:191 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:36:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:36:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:37:444 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:38:178 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:44:960 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:46:46:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:08:644 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:08:749 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:09:267 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:09:526 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:34:001 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:34:123 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:34:641 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:48:35:124 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:32:250 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:32:370 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:32:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:33:623 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:35:738 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','089580124614','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:49:59:536 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:00:120 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:00:281 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:00:702 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:00:752 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:07:468 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:07:564 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:07:999 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:08:076 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:12:889 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:12:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:13:505 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:50:16:606 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:51:13:771 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:07:683 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:07:796 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:08:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:39:727 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:41:188 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:53:42:724 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:55:49:045 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:55:50:502 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:56:01:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:56:09:978 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:56:10:070 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:56:10:476 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:56:10:573 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:10:486 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:10:603 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:10:998 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK20'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:11:101 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:11:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '0','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:12:930 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK21'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:13:558 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK71'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:16:226 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:16:932 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:17:538 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 09:59:18:137 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:51:940 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:52:555 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '2','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:53:209 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '3','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:57:181 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:58:091 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:00:58:575 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','admin','UIDESK17'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:14:121 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:14:214 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:14:731 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:15:244 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:42:522 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:43:216 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:43:294 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:43:339 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:43:853 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:54:131 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:54:195 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:54:608 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:54:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:02:58:013 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:03:00:142 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:03:01:941 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:03:03:756 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:03:06:106 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:04:35:044 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:04:35:560 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:04:37:065 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 10:04:37:571 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 01:24:00:966 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+Message: Procedure or function 'UIDESK_SP_TrxLoginActivity' expects parameter '@TrxLoginPassword', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.TrmAux.InsertLoginActivity(String TrxLoginID, String TrxLoginUserName, String TrxAction) in D:\BPO\helpdesk_agent\apps\asmx\TrmAux.asmx.vb:line 217
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 10/08/2022 01:24:00:987 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 01:24:02:249 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 01:24:02:280 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 01:24:02:660 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 01:24:02:822 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:08:096 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:10:342 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:10:473 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:10:896 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:11:419 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:23:892 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:24:408 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:24:915 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:25:466 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:31:155 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '64','admin','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:31:648 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:31:31:696 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:32:01:993 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 02:32:07:724 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec TELE_HistoryCall '64','085782432200','admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:01:567 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:03:845 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:04:008 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:04:433 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:04:960 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:13:798 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:13:845 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:14:335 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:14:928 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:16:998 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:23:391 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:25:004 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:21:27:500 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:08:137 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:08:480 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:08:649 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:09:159 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:12:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:29:14:949 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:33:36:113 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:33:58:503 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:33:58:684 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:33:59:050 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:33:59:321 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'open', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:34:07:060 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:34:07:143 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:34:07:606 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:34:07:670 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:34:12:608 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '1', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:01:486 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:01:495 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:01:502 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:02:005 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:10:877 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:10:888 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:10:897 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:11:417 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:13:553 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '1', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:46:742 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:46:813 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:47:265 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:47:767 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:49:873 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:35:52:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '1', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:22:453 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:24:610 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:24:621 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:24:629 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:25:146 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:26:154 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:26:975 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '1', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:28:067 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '1', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:30:271 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:30:831 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '3', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:33:366 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:33:827 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:34:309 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:36:34:826 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:44:18:944 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '2', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:44:21:808 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:44:22:315 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:44:22:825 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:44:23:338 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:59:18:493 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxUploadAdminCountingDataCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:59:19:034 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:59:19:514 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 10/08/2022 04:59:20:059 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', 'undefined'
+---------------------------Success-------------------------------------------------------
+

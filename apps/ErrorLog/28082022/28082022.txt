@@ -1,0 +1,25 @@
+Time: 28/08/2022 06:51:09:327 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxAgent.aspx' OR UrlUser2='Out_TrxAgent.aspx' OR UrlUser3='Out_TrxAgent.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/08/2022 07:23:38:072 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxAgent.aspx' OR UrlUser2='Out_TrxAgent.aspx' OR UrlUser3='Out_TrxAgent.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/08/2022 08:06:36:805 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Out_TrxTaskboard.aspx' OR UrlUser2='Out_TrxTaskboard.aspx' OR UrlUser3='Out_TrxTaskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 28/08/2022 08:12:04:064 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 28/08/2022 08:12:04:070 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

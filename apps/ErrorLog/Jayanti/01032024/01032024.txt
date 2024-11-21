@@ -1,0 +1,369 @@
+Time: 01/03/2024 11:18:50:872 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:51:519 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Jayanti'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:51:548 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Jayanti','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:51:549 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Jayanti' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:51:811 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Jayanti' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:52:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Jayanti', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:52:736 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:53:260 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:53:764 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:54:293 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:54:786 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Jayanti', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:57:242 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Jayanti' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:714 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Jayanti','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:732 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:749 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:774 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Jayanti','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:792 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:823 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:58:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:59:147 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Jayanti','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:18:59:671 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:19:00:210 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:19:00:688 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:19:01:209 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:48:978 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Jayanti' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:320 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Jayanti','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:364 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:378 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Jayanti','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:408 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:49:453 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:50:095 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Jayanti','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:50:350 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:50:844 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:50:859 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:21:51:371 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:06:846 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Jayanti','Logout'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:06:888 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Jayanti','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:140 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Jayanti','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:165 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:195 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Jayanti'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:205 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Jayanti','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:206 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Jayanti' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:206 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:505 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Jayanti' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:48:926 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Jayanti', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:49:431 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:49:937 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Jayanti', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:50:469 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:51:456 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:51:977 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:52:979 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Jayanti' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:413 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Jayanti','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:425 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:458 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:475 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Jayanti','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:494 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:506 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:516 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Jayanti','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:54:530 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:55:319 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:55:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:55:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:56:525 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Jayanti','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:22:56:934 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Jayanti','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/03/2024 11:23:51:431 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','Jayanti','Insert'
+---------------------------Success-------------------------------------------------------
+

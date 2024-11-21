@@ -1,0 +1,38 @@
+Time: 01/11/2022 09:34:00:828 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Uidesk_01.aspx' OR UrlUser2='Uidesk_01.aspx' OR UrlUser3='Uidesk_01.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 01/11/2022 10:56:19:340 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Report_HistoryCall.aspx' OR UrlUser2='Report_HistoryCall.aspx' OR UrlUser3='Report_HistoryCall.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 01/11/2022 02:48:09:115 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='Uidesk_03.aspx' OR UrlUser2='Uidesk_03.aspx' OR UrlUser3='Uidesk_03.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 01/11/2022 02:51:40:163 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec APPS_UIDESK_TRANSAKSI_ATTACHMENT_SP '','FileUIDESK/FileTransaksi/20221101025104068/01112022/00000000-0000-0000-0000-000000000000','20221101025104068','','','',''
+Message: Procedure or function 'APPS_UIDESK_TRANSAKSI_ATTACHMENT_SP' expects parameter '@TransaksiID', which was not supplied.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.Uidesk_011.FileTransaksi() in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Uidesk_01.asmx.vb:line 542
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 01/11/2022 02:51:40:204 PM
+---------------------------Success-------------------------------------------------------
+Message: exec APPS_UIDESK_TRANSAKSI_ATTACHMENT_SP '','FileUIDESK/FileTransaksi/20221101025104068/01112022/00000000-0000-0000-0000-000000000000','20221101025104068','','','',''
+---------------------------Success-------------------------------------------------------
+

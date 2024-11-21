@@ -1,0 +1,10 @@
+Time: 05/10/2023 10:45:04:978 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 05/10/2023 10:45:05:489 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='L2K5VBA8IVGB6HT7G2VKXCKAR8N8UB3SKL8VBHSSVCI05V8P4M' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

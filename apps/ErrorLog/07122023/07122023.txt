@@ -1,0 +1,15 @@
+Time: 07/12/2023 07:50:18:269 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_thread_new.aspx' OR UrlUser2='4_Reports_thread_new.aspx' OR UrlUser3='4_Reports_thread_new.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 07/12/2023 07:50:21:925 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/12/2023 07:50:22:329 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

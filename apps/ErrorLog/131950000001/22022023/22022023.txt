@@ -1,0 +1,280 @@
+Time: 22/02/2023 11:06:12:446 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000001','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:12:612 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:12:628 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:12:630 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000001' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:12:635 AM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC [SP_INV_CHECK_LIC_SUM]  '131950000001','UideskIndonesia','BRILife','2021-12-17','2030-12-17'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 181
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:06:12:660 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:06:34:827 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:35:394 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000001', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:35:646 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:35:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000001', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:06:36:158 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:07:37:871 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:096 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000001','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:141 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:149 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:150 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000001' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:152 AM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC [SP_INV_CHECK_LIC_SUM]  '131950000001','UideskIndonesia','BRILife','2021-12-17','2030-12-17'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 181
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:155 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:200 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:26:788 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000001', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:27:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:27:323 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000001', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:27:627 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:33:656 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:33:687 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:895 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000001','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:939 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:949 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:950 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000001' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:950 AM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC [SP_INV_CHECK_LIC_SUM]  '131950000001','UideskIndonesia','BRILife','2021-12-17','2030-12-17'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 181
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:953 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:09:50:985 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:51:547 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000001', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:51:613 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000001', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:51:909 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:52:421 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:09:58:662 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLogoutActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:112 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000001','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:159 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:168 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000001','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:169 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000001' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:171 AM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC [SP_INV_CHECK_LIC_SUM]  '131950000001','UideskIndonesia','BRILife','2021-12-17','2030-12-17'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 181
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:175 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:208 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000001' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000001', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:53:982 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:54:198 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000001', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:23:54:499 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000001','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

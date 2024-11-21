@@ -1,0 +1,284 @@
+Time: 22/02/2023 11:00:18:498 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:18:502 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from UIDESK_SOCIAL_ACCOUNT where AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:18:520 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:18:523 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:18:537 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 157
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 56
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 11:00:49:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:50:397 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:51:107 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Tele_TrxTaskboardCountingCall 'admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:51:638 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec Tele_Taskboard '0', 'admin', ''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:55:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:56:250 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:56:255 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 11:00:56:373 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:14:993 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:114 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:131 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','admin','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:132 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:138 PM
+---------------------------Failed-------------------------------------------------------
+Message: EXEC [SP_INV_CHECK_LIC_SUM]  'Admin','UideskIndonesia','BRILife','2021-12-17','2030-12-17'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 181
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:157 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 110
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 12:37:15:977 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'admin', '5', 'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:16:313 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:16:465 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'admin', 'null', '5',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:16:824 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:21:973 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+Message: Cannot find table 0.
+StackTrace:    at System.Data.DataTableCollection.get_Item(Int32 index)
+   at ICC.TrmMonitoring1.DataTableMonitoring(String TrxFlag) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\TrmMonitoring.asmx.vb:line 194
+Source: System.Data
+TargetSite: System.Data.DataTable get_Item(Int32)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/02/2023 12:37:21:981 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin 'null'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:21:992 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:22:503 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:23:011 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:25:094 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:25:154 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:25:498 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:37:26:017 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:40:988 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:41:028 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:41:432 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:42:345 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:42:380 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '3'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:42:450 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:42:714 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:43:225 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:43:837 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:43:869 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:44:209 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:44:212 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:45:458 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:45:488 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '4'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:45:836 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:46:340 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:46:941 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringCountingLogin 'admin','5','Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:46:973 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxMonitoringLogin '2'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:47:314 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/02/2023 12:39:47:829 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','admin','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

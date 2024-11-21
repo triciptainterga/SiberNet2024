@@ -1,0 +1,1042 @@
+Time: 07/03/2024 09:19:08:586 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:08:676 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:08:685 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:08:706 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:09:508 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:10:280 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:10:779 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:11:582 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:11:789 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:12:316 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:13:190 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:20:187 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:472 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:504 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:516 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:528 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:543 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:602 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:614 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:632 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:707 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:21:916 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:22:388 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:22:892 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:23:405 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:23:910 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:24:886 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'sams','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:24:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'samsu','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:27:089 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:27:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:32:940 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:35:294 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00009','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:36:586 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00031','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:38:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00039','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:39:412 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00103','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:19:39:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:05:476 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Mega','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:05:486 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00039','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:05:733 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:06:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00009','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:06:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00031','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:07:275 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00103','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:07:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:20:08:259 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092007583','Call','CAT-00009','CT1-00031','CT2-00039','CT3-00103','<p>Simulasi 2</p>
+','<p>Simulasi 2</p>
+','3','Closed','Mega','202403070920075831156894','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','High','Default','CT3-00103','Call','2024-03-07T09:19','1026','4','Mega','1073','1','202403070920075831156894', '20240307092007583115689486', '-','0','-','Apps Error','Nusa Dua - Ngurah Rai - Benoa'
+Message: Column name or number of supplied values does not match table definition.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName, String TrxTollRoadSegment) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 491
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:20:08:266 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092007583','Call','CAT-00009','CT1-00031','CT2-00039','CT3-00103','<p>Simulasi 2</p>
+','<p>Simulasi 2</p>
+','3','Closed','Mega','202403070920075831156894','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','High','Default','CT3-00103','Call','2024-03-07T09:19','1026','4','Mega','1073','1','202403070920075831156894', '20240307092007583115689486', '-','0','-','Apps Error','Nusa Dua - Ngurah Rai - Benoa'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:14:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00103','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:14:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1073','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:18:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:18:856 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:22:099 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:24:838 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-000012','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:26:716 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-000019','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:28:589 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-000035','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:28:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1072','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:35:281 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:089 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:103 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:141 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:193 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:206 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:219 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:230 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:36:510 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:37:023 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:37:545 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:38:204 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:38:514 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:39:856 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:41:312 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:43:191 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:44:444 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00001','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:44:491 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1071','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:50:835 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00003','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:50:860 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1071','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:53:444 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00002','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:22:53:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1071','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:03:991 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'sams','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:06:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:07:213 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:37:927 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Mega','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:38:141 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:38:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-00002','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:39:022 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:39:517 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1071','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:39:906 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-00001','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:40:430 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-00001','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:23:45:545 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092344735','Call','CAT-00004','CT1-00001','CT2-00001','CT3-00002','<p>Testing</p>
+','<p>Inform how to find the confirmation on the purchase of the Electronic Route Ticket. Collect information and escalate to Technical Team if related to technical issue</p>
+','3','Closed','Mega','202403070923447358280646','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','High','Default','CT3-00002','Call','2024-03-07T09:22','1026','4','Mega','1071','1','202403070923447358280646', '20240307092344735828064735', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+Message: Column name or number of supplied values does not match table definition.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName, String TrxTollRoadSegment) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 491
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:23:45:546 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092344735','Call','CAT-00004','CT1-00001','CT2-00001','CT3-00002','<p>Testing</p>
+','<p>Inform how to find the confirmation on the purchase of the Electronic Route Ticket. Collect information and escalate to Technical Team if related to technical issue</p>
+','3','Closed','Mega','202403070923447358280646','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','High','Default','CT3-00002','Call','2024-03-07T09:22','1026','4','Mega','1071','1','202403070923447358280646', '20240307092344735828064735', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:292 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Mega','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:313 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:410 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:421 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:422 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:424 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:26:21:697 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:22:614 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:23:084 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:23:123 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:23:159 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:23:631 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:24:203 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:26:749 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:642 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:657 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:695 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:711 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:728 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:741 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:754 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:27:998 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:28:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:28:529 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:29:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:29:739 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:37:935 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMS','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:38:299 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'SAMSU','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:40:394 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:40:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:46:508 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:48:672 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-000012','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:50:632 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-000019','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:51:667 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-000034','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:26:51:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1072','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:09:847 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Mega','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:10:058 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:10:910 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:11:099 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-000034','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:11:668 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-000019','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:12:253 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-000012','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:17:260 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092715898','Call','CAT-00004','CT1-000012','CT2-000019','CT3-000034','<p>Oke</p>
+','<p>Inform how to find the confirmation on the ticket purchase</p>
+','12','Closed','Mega','202403070927158984666678','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','Medium','Default','CT3-000034','Call','2024-03-07T09:26','1026','4','Mega','1072','1','202403070927158984666678', '20240307092715898466667889', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+Message: Column name or number of supplied values does not match table definition.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName, String TrxTollRoadSegment) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 491
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:27:17:262 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092715898','Call','CAT-00004','CT1-000012','CT2-000019','CT3-000034','<p>Oke</p>
+','<p>Inform how to find the confirmation on the ticket purchase</p>
+','12','Closed','Mega','202403070927158984666678','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','Medium','Default','CT3-000034','Call','2024-03-07T09:26','1026','4','Mega','1072','1','202403070927158984666678', '20240307092715898466667889', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:27:17:474 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1072','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:634 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Mega','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:650 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:747 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:756 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:757 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:00:758 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:28:01:045 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:01:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:02:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:03:458 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:03:475 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:03:968 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:04:482 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:06:143 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:079 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:091 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:100 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:126 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:183 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:194 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:205 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:402 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:07:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:08:467 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:08:968 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:09:419 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:10:262 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'mega','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:13:584 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'sams','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:13:692 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'samsu','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:15:875 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:16:584 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:20:368 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:22:020 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-000012','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:23:269 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-000019','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:25:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-000034','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:25:507 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1072','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:39:404 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '','UideskIndonesia','Mega','UIDESK327'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:40:596 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:41:265 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT3-000034','UideskIndonesia','Mega','UIDESK314'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:41:371 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '1072','UideskIndonesia','Mega','UIDESK311'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:41:557 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT1-000012','UideskIndonesia','Mega','UIDESK309'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:41:993 AM
+---------------------------Failed-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092841628','Call','CAT-00004','CT1-000012','CT2-000019','CT3-000034','<p>Testing</p>
+','<p>Inform how to find the confirmation on the ticket purchase</p>
+','12','Closed','Mega','202403070928416282646241','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','Medium','Default','CT3-000034','Call','2024-03-07T09:28','1026','4','Mega','1072','1','202403070928416282646241', '20240307092841628264624169', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+Message: Column name or number of supplied values does not match table definition.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ICC.WebServiceTransaction.Insert_TransactionTicket(String TrxUsername, String TrxCustomerID, String TxtThreadID, String TxtAccount, String TrxPelapor, String TrxPelaporEmail, String TrxPelaporPhone, String TrxPelaporAddress, String TrxKejadian, String TrxPenyebab, String TrxPenerimaPengaduan, String TrxStatusPelapor, String TrxSkalaPrioritas, String TrxJenisNasabah, String TrxNomorRekening, String TrxSumberInformasi, String TrxCategory, String TrxLevel1, String TrxLevel2, String TrxLevel3, String TrxComplaint, String TrxResponse, String TrxChannel, String TrxStatus, String TrxEskalasi, String TrxSLA, String TrxExtendCategory, String TrxLayer, String TrxThreadID, String TrxGenesysID, String TxtContactID, String TrxIDchannel, String TrxProductName, String TrxTollRoadSegment) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceTransaction.asmx.vb:line 491
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 07/03/2024 09:28:41:993 AM
+---------------------------Success-------------------------------------------------------
+Message: exec Insert_Transaction '231128215128','20240307092841628','Call','CAT-00004','CT1-000012','CT2-000019','CT3-000034','<p>Testing</p>
+','<p>Inform how to find the confirmation on the ticket purchase</p>
+','12','Closed','Mega','202403070928416282646241','SAMSU%20RIZAL','rizalsamsurizal708@gmail.com','085782431208','Default','-','B4451GH','Medium','Default','CT3-000034','Call','2024-03-07T09:28','1026','4','Mega','1072','1','202403070928416282646241', '20240307092841628264624169', '-','0','-','Electronic Route TicketConfirmation','Nusa Dua - Ngurah Rai - Benoa'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:42:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CAT-00004','UideskIndonesia','Mega','UIDESK308'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:43:377 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'CT2-000019','UideskIndonesia','Mega','UIDESK310'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:50:236 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_ListDataTransactionticket '231128215128','Mega','null'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:56:004 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_Temp_PublishTransaction '231128215128','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:57:336 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:58:050 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:58:681 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:58:996 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:59:037 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:28:59:629 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 07/03/2024 09:29:00:042 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

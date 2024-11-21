@@ -1,0 +1,5 @@
+Time: 14/11/2022 12:44:48:100 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='TrxAgentProductCampaign.aspx' OR UrlUser2='TrxAgentProductCampaign.aspx' OR UrlUser3='TrxAgentProductCampaign.aspx')
+---------------------------Success-------------------------------------------------------
+

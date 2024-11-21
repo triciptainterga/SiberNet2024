@@ -1,0 +1,30 @@
+Time: 19/02/2024 08:00:20:343 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 19/02/2024 08:00:21:337 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='XA26WXLYEMUZGQEHFSHTVLYVJH56I475H2E238SVTAZTHEZK58' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 19/02/2024 08:39:46:304 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 19/02/2024 08:39:46:643 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='ZL6SEBOERIQ8ABFNRK4RXCZHPN3Y0QJ843865L58C5POW67B3B' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 19/02/2024 08:42:34:413 PM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+---------------------------Success-------------------------------------------------------
+
+Time: 19/02/2024 08:42:34:431 PM
+---------------------------Success-------------------------------------------------------
+Message: UPDATE MSUSER SET LOGIN='1', IdAUX='9', DescAUX='READY', AUTHORITY='0O3H3R2I1X4BI8EE0O0E26T26JCEBRKWWHSHG5ZT3P1G3TWQ8T' WHERE USERNAME ='admin'
+---------------------------Success-------------------------------------------------------
+

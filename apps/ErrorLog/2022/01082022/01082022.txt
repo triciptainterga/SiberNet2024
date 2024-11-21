@@ -1,0 +1,488 @@
+Time: 01/08/2022 09:47:05:747 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:47:05:763 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:47:05:789 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:47:05:829 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:396 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:407 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:409 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:417 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:419 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 09:53:20:423 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:149 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:186 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:186 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:194 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:196 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:29:207 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:42:139 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:42:149 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:42:156 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:42:160 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:03:42:156 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+Message: The process cannot access the file 'D:\BPO\helpdesk_agent\apps\ErrorLog\2022\01082022\01082022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:567 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:579 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:579 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:581 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:589 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:05:01:597 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:629 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:640 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:642 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:642 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:645 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:06:645 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:21:994 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:22:009 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:22:009 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:22:010 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:22:012 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:06:22:012 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:268 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:278 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:278 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:279 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+Message: The process cannot access the file 'D:\BPO\helpdesk_agent\apps\ErrorLog\2022\01082022\01082022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:282 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:07:55:282 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:597 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:609 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:609 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:611 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:612 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:18:615 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:468 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:478 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:478 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:480 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:480 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:08:21:488 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:218 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:230 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:231 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:233 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:235 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:09:46:236 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:314 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:325 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:325 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:325 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:328 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:24:329 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:499 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:509 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:509 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:510 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:512 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:10:57:513 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:18:806 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (ID) as LDAPCount from ICC_LDAP_Setting WHERE NA='Y'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:18:809 AM
+---------------------------Success-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName='Admin' and Password='Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:18:813 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI_EPIC  'Admin'
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:18:888 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='admin' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:580 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [tticket] Where AccountInbound='null' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:594 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundHeader] Where call_phone_number='null' and call_status <> '0' 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:595 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrmReasonCall]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:596 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutboundCallStatus]  
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:598 AM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundReminder] where call_outbound_id='null' order by call_reminder_date Asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 10:15:56:599 AM
+---------------------------Failed-------------------------------------------------------
+Message: select * from [TrmViewTransaksiOutboundDetail] where call_outbound_id='null' order by call_date Asc 
+Message: The process cannot access the file 'D:\BPO\helpdesk_agent\apps\ErrorLog\2022\01082022\01082022.txt' because it is being used by another process.
+StackTrace:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at ICC.WebServiceGetDataMaster.LogSuccess(String agentName, String strValue) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 132
+   at ICC.WebServiceGetDataMaster.GetWhereRecords(String tableType, String tableName, String paramQuery) in D:\BPO\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 223
+Source: mscorlib
+TargetSite: Void WinIOError(Int32, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 01/08/2022 04:44:11:573 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundRider] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 04:44:11:673 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_Fund] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 04:44:12:228 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundRider] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 04:44:13:278 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundRider] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 04:44:13:711 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [UIDESK_TrxOutbound_Fund] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+
+Time: 01/08/2022 04:44:14:181 PM
+---------------------------Success-------------------------------------------------------
+Message: select * from [TrmViewOutboundRider] Where call_upload_id='' and call_polis_number = '' order by id asc 
+---------------------------Success-------------------------------------------------------
+

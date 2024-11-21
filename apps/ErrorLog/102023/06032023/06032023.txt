@@ -1,0 +1,423 @@
+Time: 06/03/2023 10:16:06:525 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '102023','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:06:530 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 123
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:16:30:142 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:30:845 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '102023', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:31:407 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '102023', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:34:673 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:35:147 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:49:596 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:50:128 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:16:50:140 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:50:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:50:601 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:50:894 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:16:56:210 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:17:19:245 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:29:800 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:18:29:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:30:063 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:30:200 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:30:717 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:44:061 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '102023','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:44:062 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 123
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:18:44:282 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:45:219 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '102023', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:45:722 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:45:987 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:18:46:588 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '102023', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:19:04:840 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:19:05:395 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:19:05:396 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:19:05:683 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:19:05:853 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:19:06:198 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:20:19:653 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:21:11:283 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:21:11:918 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:21:12:133 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:21:12:134 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:35:139 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '102023','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:35:140 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 123
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\V2_UIDESK\helpdesk_agent\auth_local.aspx.vb:line 58
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:22:35:371 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:36:046 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '102023', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:36:282 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '102023', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:36:367 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:36:882 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:45:973 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:48:190 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:22:48:191 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:48:365 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:48:705 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:48:888 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:53:016 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '','102023','UIDESK88'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:53:477 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '','102023','UIDESK89'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:22:54:327 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:25:09:828 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='102023' And Url='Tele_TrxTransaksi.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:25:11:979 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+Message: The conversion of the varchar value '085782433578' overflowed an int column.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.Tele_TrxTransaksi1.UIDESK_TrmMaster(String TrxID, String TrxUserName, String TrxAction) in D:\V2_UIDESK\helpdesk_agent\apps\asmx\Tele_TrxTransaksi.asmx.vb:line 182
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2023 10:25:11:980 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '085782433578','102023','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:25:12:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'null','102023','UIDESK87'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:25:12:825 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2023 10:25:12:879 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','102023','UIDESK66'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,19 @@
+{
+    "Name": "Samsu Rizal",
+    "Email": "rizal@gmail.com",
+    "Phone": "085782432208",
+    "DOB": "2021-11-29",
+    "Gender": "Pria",
+    "NIK": "3174080907930004",
+    "Address": "JL. DIPONEGORO NO. 48 TABANAN KEL. DAJAN PEKEN - KEC. TABANAN TABANAN BALI",
+    "DataPolis": [
+        {
+            "NomorPolis": "60000000",
+            "Type": "Type-01"
+        },
+        {
+            "NomorPolis": "60000001",
+            "Type": "Type-01"
+        }
+    ]
+}

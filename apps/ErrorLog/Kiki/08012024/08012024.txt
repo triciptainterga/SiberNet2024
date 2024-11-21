@@ -1,0 +1,233 @@
+Time: 08/01/2024 08:58:38:192 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'kiki','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:38:222 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:38:669 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Kiki'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:38:721 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Kiki','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:38:721 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Kiki' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:38:732 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/01/2024 08:58:39:317 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Kiki' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:40:242 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Kiki', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:40:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Kiki', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:41:398 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:41:722 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:44:628 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Kiki' And Url='TrmMailSystem.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:45:421 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:45:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Kiki','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:45:891 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK120'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:45:903 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:45:915 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:46:215 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Kiki','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:46:369 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Kiki','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:46:726 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Kiki','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:46:926 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 08:58:47:386 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Kiki','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:490 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'kiki','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:528 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:643 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Kiki'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:655 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Kiki','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:656 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Kiki' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:657 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 08/01/2024 10:01:08:861 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Kiki' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:10:238 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Kiki', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:11:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Kiki', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:11:677 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:11:773 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:13:506 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Kiki' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:14:481 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:14:744 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:14:869 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', 'Kiki'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:01:15:321 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'Kiki','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:19:44:666 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Kiki' And Url='1_Thread.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:19:45:592 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec TR_DataThread 'Layer 1', 'Kiki'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:19:46:073 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_TempKotakThread 'Kiki','1','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:19:46:605 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 08/01/2024 10:19:47:464 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Kiki','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,1949 @@
+Time: 06/03/2024 09:36:11:732 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Mega','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:754 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:778 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:790 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:791 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:791 AM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 127
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\ROADTEK\Applikasi\helpdesk_agent\auth_local.aspx.vb:line 57
+Source: mscorlib
+TargetSite: Void AbortInternal()
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:36:11:961 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:12:400 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:12:853 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:12:867 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:13:408 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:13:898 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:14:404 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:404 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:738 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:752 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:771 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:782 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:796 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:838 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:849 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:861 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:17:872 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:18:199 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:18:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:19:203 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:19:708 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:36:20:208 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:120 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:184 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:202 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:203 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:374 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:34:803 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:35:304 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:35:770 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:36:273 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:36:775 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:37:278 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:035 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:354 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','Mega','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:407 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:421 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:436 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','Mega','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:446 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:457 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:467 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:478 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:39:822 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:40:328 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK332'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:40:830 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:41:340 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','Mega','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:41:850 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','Mega','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:46:897 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'sams','UideskIndonesia','Mega','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:48:512 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:49:022 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231128215128','UideskIndonesia','Mega','UIDESK331'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:54:653 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:55:004 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:55:475 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:103 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:404 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:416 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:427 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:439 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:452 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Closed', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:56:931 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:57:438 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:57:949 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:37:58:479 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:00:901 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:254 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:291 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:303 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:325 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:345 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:358 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:368 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:379 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:390 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:413 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:418 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:429 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:686 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:01:766 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:02:222 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:02:716 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:38:02:744 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:40:859 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:41:170 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:41:635 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Closed', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:327 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:625 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:650 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:661 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:42:673 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:43:107 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:43:150 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:43:665 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:44:184 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:44:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:133 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:415 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:451 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:463 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:473 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:484 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:500 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:511 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:522 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:533 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:544 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:568 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:569 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:579 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:45:857 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:46:430 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:46:885 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:47:420 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:47:920 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:54:551 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/c774c9d5-4a35-46d6-a0fe-81dab1d7656f.JPG','Tama1.JPG','.JPG','7115','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:54:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:58:699 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/ceee4289-7870-4b3b-99de-e5a6ba56136f.jpg','HelloMeets.jpg','.jpg','63688','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:39:58:711 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:40:01:511 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:40:02:656 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxJourneyEscalation '20240302111002258','Mega','UIDESK201'
+Message: Conversion failed when converting the varchar value 'undefined' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrxJourneyEscalation(String TrxID, String TrxSearching, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5389
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:40:02:658 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxJourneyEscalation '20240302111002258','Mega','UIDESK201'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:11:451 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '65'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:12:093 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrxJourneyEscalation '20240302111002258','Mega','UIDESK201'
+Message: Conversion failed when converting the varchar value 'undefined' to data type int.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   at System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   at System.Data.Common.DataAdapter.Fill(DataSet dataSet, String srcTable, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrxJourneyEscalation(String TrxID, String TrxSearching, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5389
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:41:12:094 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxJourneyEscalation '20240302111002258','Mega','UIDESK201'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:628 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:845 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:858 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:868 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:882 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:893 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:908 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:931 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:943 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:954 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:965 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:982 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:983 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:21:994 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:22:353 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:22:861 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:23:433 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:23:895 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:41:24:410 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:462 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:901 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:947 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:960 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:970 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:50:981 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:003 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:017 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:031 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:041 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:052 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:076 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:077 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:088 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:362 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:51:948 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:52:369 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:52:881 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:53:408 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:56:800 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/4acb5e82-1834-4268-bfda-e37c779b0b13.jpg','HelloMeets.jpg','.jpg','63688','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:44:56:814 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:45:09:419 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_TrxEmailDetail WHERE ID='67'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:45:09:429 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxDeleteEmailAttachment '67','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:45:09:445 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','TrmAttachmentEmailCompose','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:24:597 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:24:659 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:24:675 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:24:675 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:24:831 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:25:224 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:25:719 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:26:201 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:26:714 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:27:241 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:46:27:734 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:438 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:834 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:871 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:884 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:894 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:905 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:922 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:933 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:944 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:955 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:969 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:985 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:986 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:10:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:11:290 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:11:806 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:12:351 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:12:834 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:13:335 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:26:056 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/997bb6b3-8646-4ddb-af8f-f13e8178f31d.jpg','HelloMeets.jpg','.jpg','63688','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:26:071 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:33:557 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_TrxEmailDetail WHERE ID='68'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:33:568 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxDeleteEmailAttachment '68','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:33:585 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','TrmAttachmentEmailCompose','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:43:899 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_TrxEmailDetail WHERE ID='67'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:43:907 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxDeleteEmailAttachment '67','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:47:43:922 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','TrmAttachmentEmailCompose','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:41:890 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:41:953 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:41:975 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:41:975 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:42:126 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:42:599 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:43:182 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:43:553 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:44:198 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:44:524 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:44:573 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:44:958 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:44:973 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:45:081 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:45:499 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:45:593 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:46:012 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:46:523 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:185 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:503 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:544 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:557 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:570 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:583 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:600 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:611 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:623 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:634 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:678 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:696 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:696 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:715 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:51:953 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:52:454 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:52:965 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:53:475 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:48:53:987 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:03:405 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/664e3965-5b1f-4349-b363-3f68c420e820.JPG','Tama1.JPG','.JPG','7115','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:03:427 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:06:152 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '69'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:15:813 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '68'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:041 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:102 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:113 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:113 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:283 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:54:701 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:55:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:55:638 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:56:143 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:56:655 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:57:259 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:046 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:409 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:445 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:458 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:479 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:496 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:506 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:517 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:531 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:542 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:562 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:562 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:576 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:58:846 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:59:445 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:49:59:890 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:00:426 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:00:912 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:12:946 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/23cc76e9-00c9-44bb-8d70-f5bacabc571e.jpg','HelloMeets.jpg','.jpg','63688','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:12:961 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:15:472 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '70'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:16:461 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:25:402 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '67'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:26:076 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:34:300 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachment '231128215128','0','attachment/2024/06032024/9099cb31-6d15-4fc9-8031-6262cf8d8214.png','ThreadSystemBRILife.png','.png','73525','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:34:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:42:942 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxTicketAttachmentDelete '71'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:43:487 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK62'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:049 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:265 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:279 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:302 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:314 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:325 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:344 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:355 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:367 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:378 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:391 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:408 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:409 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:423 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:45:806 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:46:279 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:46:793 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:47:295 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:50:47:805 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:24:445 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:24:514 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxAgentAux '9','Mega'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:24:525 AM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Mega','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:24:525 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Mega' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:24:706 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:25:133 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:25:552 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:25:568 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:26:081 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:26:603 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:27:114 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:31:682 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:32:023 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Mega', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:32:470 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec DataTableTaskboardNew 'Mega', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:32:963 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK124'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:33:483 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:33:997 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:34:282 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Mega' And Url='1_journey_new.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:34:566 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:128 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmMasterDropdown 'UideskIndonesia','InboxTable','Mega','UIDESK100'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:156 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '6','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:168 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK116'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:179 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Mega','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:190 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK115'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:207 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxEmailCounting 'Mega','layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:217 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:228 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Mega','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:240 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','null','UIDESK125'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:35:560 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Mega','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:36:089 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:36:572 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxFilterDate '0','0','Mega','FilterDate'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:37:132 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:37:608 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:37:624 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:38:163 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231128215128','Mega','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 06/03/2024 09:53:38:637 AM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\ROADTEK\Applikasi\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5326
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 06/03/2024 09:53:38:637 AM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20240302111002258','Mega','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
